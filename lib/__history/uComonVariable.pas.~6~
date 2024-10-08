@@ -1,0 +1,20 @@
+unit uComonVariable;
+
+interface
+
+implementation
+
+var
+  G_nComPort : Integer; //마지막 시리얼 접속 포트
+  G_nConnectMode : Integer; //마지막 접속 모드 //0:TCP,1:RS232
+  G_nDelayTime : Integer;   //장치 전송 후 대기 시간
+  G_nLANLoop : integer;     //Lan 설정 재송신 횟수
+  G_nLANTime : integer;     //Lan 설정 대기 시간
+  G_nLoopCount : Integer;   //재시도 횟수
+
+
+
+  G_stPw : String; //로그인 비밀번호
+  G_stTCPConf : String; //마지막 접속 정보
+
+end.

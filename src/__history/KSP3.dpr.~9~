@@ -1,0 +1,23 @@
+program KSP3;
+
+uses
+  Vcl.Forms,
+  uMain in 'uMain.pas' {fmMain},
+  uDataBase in '..\lib\uDataBase.pas' {dmDatabase: TDataModule},
+  uComonVariable in '..\lib\uComonVariable.pas',
+  uCommonFunction in '..\lib\uCommonFunction.pas',
+  uCommonEvent in '..\lib\uCommonEvent.pas',
+  uDBCreate in '..\lib\uDBCreate.pas' {dmDBCreate: TDataModule},
+  uDBInsert in '..\lib\uDBInsert.pas' {dmDBInsert: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TdmDatabase, dmDatabase);
+  Application.CreateForm(TfmMain, fmMain);
+  Application.CreateForm(TdmDBCreate, dmDBCreate);
+  Application.CreateForm(TdmDBInsert, dmDBInsert);
+  Application.Run;
+end.

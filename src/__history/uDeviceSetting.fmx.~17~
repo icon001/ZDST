@@ -1,0 +1,124 @@
+object fmDeviceSetting: TfmDeviceSetting
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'Zeron Device Setting Tool'
+  ClientHeight = 768
+  ClientWidth = 1024
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 911.000000000000000000
+    Size.Height = 768.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object rectExplain: TRectangle
+      Align = MostLeft
+      Size.Width = 200.000000000000000000
+      Size.Height = 768.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object Rectangle4: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 711.000000000000000000
+      Size.Height = 768.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+  object Rectangle2: TRectangle
+    Align = MostLeft
+    Fill.Color = xFF2C343F
+    Padding.Top = 40.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 768.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object CornerButton1: TCornerButton
+      Align = Top
+      Position.Y = 40.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 113.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton2: TCornerButton
+      Align = Top
+      Position.Y = 90.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 113.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton3: TCornerButton
+      Align = Top
+      Position.Y = 140.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 113.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton4: TCornerButton
+      Align = Top
+      Position.Y = 190.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 113.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton5: TCornerButton
+      Align = Top
+      Position.Y = 240.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 113.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object CornerButton6: TCornerButton
+      Align = Top
+      Position.Y = 290.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 113.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+  end
+  object blue_plt: TBrushObject
+    StyleName = 'blue_plt'
+    Brush.Color = xFF2C343F
+    Left = 984
+    Top = 8
+  end
+  object white: TBrushObject
+    StyleName = 'white'
+    Brush.Color = claWhite
+    Left = 984
+    Top = 64
+  end
+end

@@ -1,0 +1,25 @@
+unit uNode;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TdmNode = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmNode: TdmNode;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

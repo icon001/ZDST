@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.553,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.867,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.333,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.452,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockclasses\u_c_byte_buffer.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.215,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.189,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.917,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uDataBase.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.512,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\Device\uNode.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.465,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.282,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.047,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.664,E:\2024\Project\XE10.2\GSP\src\uDeviceSetting.pas=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.498,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsocket\u_winsock.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.477,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockclasses\u_c_log.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.142,E:\2024\Project\XE10.2\GSP\lib\uComonVariable.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.616,=C:\Users\zeron\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.465,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockclasses\u_c_display.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.437,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockclasses\u_c_basic_object.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.917,E:\2024\Project\XE10.2\GSP\src\Unit1.dfm=E:\2024\Project\XE10.2\GSP\lib\uDataBase.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.664,E:\2024\Project\XE10.2\GSP\src\uDeviceSetting.fmx=E:\2024\Project\XE10.2\GSP\src\Unit1.fmx</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.512,E:\2024\Project\XE10.2\GSP\src\Unit1.dfm=E:\2024\Project\XE10.2\GSP\lib\Device\uNode.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.628,E:\2024\Project\XE10.2\GSP\src\Unit1.dfm=E:\2024\Project\XE10.2\GSP\lib\uDBCreate.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.696,E:\2024\Project\XE10.2\GSP\src\Unit1.dfm=E:\2024\Project\XE10.2\GSP\lib\uDBInsert.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.628,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uDBCreate.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.370,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockunits\u_dir.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.404,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockunits\u_file.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.977,=C:\Users\zeron\Documents\Embarcadero\Studio\Projects\Unit11.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.651,C:\Users\zeron\Documents\Embarcadero\Studio\Projects\Unit11.pas=E:\2024\Project\XE10.2\GSP\src\uMain.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.347,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockunits\u_characters.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.419,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockunits\u_strings.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.429,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockunits\u_types_constants.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.838,C:\Users\zeron\Documents\Embarcadero\Studio\Projects\Project5.dproj=E:\2024\Project\XE10.2\GSP\src\KSP3.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.651,C:\Users\zeron\Documents\Embarcadero\Studio\Projects\Unit11.dfm=E:\2024\Project\XE10.2\GSP\src\uMain.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.072,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uCommonEvent.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.071,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\Device\uDevice.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.062,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.008,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uComonVariable.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.760,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uComonVariable.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.157,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.696,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uDBInsert.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.390,=E:\2024\Project\XE10.2\GSP\lib\Device\Winsockunits\u_display_hex_2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.250,E:\2024\Project\XE10.2\GSP\src\Unit1.pas=E:\2024\Project\XE10.2\GSP\lib\uCommonFunction.pas</Transaction>
+    <Transaction>2024-10-08 13:43:05.729,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>2024-10-08 13:44:27.526,E:\2024\Project\XE10.2\GSP\src\uFrameLanSetting.fmx=E:\2024\Project\XE10.2\GSP\src\Unit1.fmx</Transaction>
+    <Transaction>2024-10-08 13:44:27.526,E:\2024\Project\XE10.2\GSP\src\uFrameLanSetting.pas=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>2024-10-08 13:50:58.868,=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>2024-10-08 13:52:02.985,E:\2024\Project\XE10.2\GSP\src\uFrameLanSettingDetails.pas=E:\2024\Project\XE10.2\GSP\src\Unit1.pas</Transaction>
+    <Transaction>2024-10-08 13:52:02.985,E:\2024\Project\XE10.2\GSP\src\uFrameLanSettingDetails.fmx=E:\2024\Project\XE10.2\GSP\src\Unit1.fmx</Transaction>
+    <Transaction>2024-10-08 13:57:41.541,E:\2024\Project\XE10.2\GSP\src\uFrameLanSettingExplain.pas=E:\2024\Project\XE10.2\GSP\src\uFrameLanSetting.pas</Transaction>
+    <Transaction>2024-10-08 13:57:41.541,E:\2024\Project\XE10.2\GSP\src\uFrameLanSettingExplain.fmx=E:\2024\Project\XE10.2\GSP\src\uFrameLanSetting.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
