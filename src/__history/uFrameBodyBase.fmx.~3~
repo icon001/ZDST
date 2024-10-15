@@ -1,0 +1,15 @@
+object frameBodyBase: TframeBodyBase
+  Size.Width = 635.000000000000000000
+  Size.Height = 534.000000000000000000
+  Size.PlatformDefault = False
+  object rectDeviceState: TRectangle
+    Align = Left
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 60.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 60.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 534.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

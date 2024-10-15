@@ -5,11 +5,17 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Controls.Presentation;
+  FMX.Controls.Presentation, FMX.Objects;
 
 type
   TframeLanSettingExplain = class(TFrame)
-    Label1: TLabel;
+    Rectangle1: TRectangle;
+    Text1: TText;
+    Text2: TText;
+    Text3: TText;
+    Text4: TText;
+    Circle1: TCircle;
+    Circle2: TCircle;
   private
     FMyText: String;
     procedure SetMyText(const Value: String);
@@ -31,8 +37,7 @@ implementation
 
 procedure TframeLanSettingExplain.SetMyText(const Value: String);
 begin
-  FMyText := Value;
-  Label1.Text := Value;
+
 end;
 
 end.

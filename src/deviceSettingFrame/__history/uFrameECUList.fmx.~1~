@@ -1,0 +1,64 @@
+object frameECUList: TframeECUList
+  Size.Width = 162.000000000000000000
+  Size.Height = 48.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle2: TRectangle
+    Align = Client
+    Size.Width = 162.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    object GridPanelLayout2: TGridPanelLayout
+      Align = Client
+      Padding.Left = 5.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 162.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          SizeStyle = Absolute
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 100.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = CheckBox1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Label1
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object CheckBox1: TCheckBox
+        Align = Client
+        Size.Width = 40.000000000000000000
+        Size.Height = 38.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '00'
+      end
+      object Label1: TLabel
+        Align = Client
+        Size.Width = 102.000000000000000000
+        Size.Height = 38.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'MCU100'
+        TabOrder = 1
+      end
+    end
+  end
+end

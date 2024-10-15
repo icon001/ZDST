@@ -1,0 +1,11 @@
+object FrameLanSettingDetails: TFrameLanSettingDetails
+  Size.Width = 602.000000000000000000
+  Size.Height = 495.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Size.Width = 602.000000000000000000
+    Size.Height = 495.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

@@ -1,0 +1,322 @@
+object frameMainToLocalDevice: TframeMainToLocalDevice
+  Size.Width = 529.000000000000000000
+  Size.Height = 557.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Size.Width = 529.000000000000000000
+    Size.Height = 557.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 529.000000000000000000
+    Size.Height = 557.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Text1
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = rectType
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 2
+      end
+      item
+        Column = 0
+        Control = FlowLayout2
+        Row = 3
+      end
+      item
+        Column = 0
+        Control = rectFooter
+        Row = 4
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 150.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Text1: TText
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 519.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = #44221#44228' '#48512#44032#44592#45733' '#44288#47532
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object rectType: TRectangle
+      Align = Client
+      Anchors = []
+      Fill.Kind = None
+      Margins.Left = 10.000000000000000000
+      Size.Width = 519.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object txtType: TText
+        Align = Left
+        Margins.Top = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Text = #49688#54665#51089#50629
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Leading
+      end
+      object cmbType: TComboBox
+        Align = Client
+        Items.Strings = (
+          #49324#50857#50504#54632
+          #51452#51109#52824#44032' '#44032#51077#51088#54869#51109#44592#47484' '#44221#44228#49884#53412#44256' '#51452#51109#52824#44032' '#44221#44228#46120
+          #44032#51077#51088' '#54869#51109#44592#44032' '#44221#44228#46108' '#49345#53468#50640#49436#47564' '#51452#51109#52824#44032' '#44221#44228#46120)
+        ItemIndex = 0
+        Margins.Top = 14.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 14.000000000000000000
+        Size.Width = 436.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Padding.Left = 10.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Size.Width = 529.000000000000000000
+      Size.Height = 150.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 529.000000000000000000
+      Viewport.Height = 150.000000000000000000
+      object rectEcuList: TRectangle
+        Align = Client
+        Fill.Kind = None
+        Size.Width = 509.000000000000000000
+        Size.Height = 150.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        OnResize = rectEcuListResize
+        object FlowLayout1: TFlowLayout
+          Align = Client
+          Size.Width = 509.000000000000000000
+          Size.Height = 150.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Justify = Left
+          JustifyLastLine = Left
+          FlowDirection = LeftToRight
+        end
+      end
+    end
+    object FlowLayout2: TFlowLayout
+      Align = Client
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 529.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+      object chk00: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 10.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Text = '00'
+        TextSettings.FontColor = claWhite
+      end
+      object chk10: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 51.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = '10'
+        TextSettings.FontColor = claWhite
+      end
+      object chk20: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 92.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = '20'
+        TextSettings.FontColor = claWhite
+      end
+      object chk30: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 133.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = '30'
+        TextSettings.FontColor = claWhite
+      end
+      object chk40: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 174.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = '40'
+        TextSettings.FontColor = claWhite
+      end
+      object chk50: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 215.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = '50'
+        TextSettings.FontColor = claWhite
+      end
+      object chk60: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 256.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = '60'
+        TextSettings.FontColor = claWhite
+      end
+      object chkAll: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 297.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'All'
+        TextSettings.FontColor = claWhite
+      end
+    end
+    object rectFooter: TRectangle
+      Align = Client
+      Fill.Kind = None
+      Size.Width = 529.000000000000000000
+      Size.Height = 267.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object txtDetail: TText
+        Align = Top
+        Size.Width = 529.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Text = '['#44221#44228#48512#44032#44592#45733' '#49324#50857#51312#44148']'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+      object txtDetail1: TText
+        Align = Top
+        Position.Y = 41.000000000000000000
+        Size.Width = 529.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Text = '1. '#51452#51109#52824' '#48143' '#54869#51109#44592#50640' "'#49884#49828#53596#51221#48372'-'#44396#50669#44221#44228'" '#49324#50857#51060' '#50630#50612#50556' '#54632
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+      object txtDetail2: TText
+        Align = Top
+        Position.Y = 82.000000000000000000
+        Size.Width = 529.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Text = '2. '#51452#51109#52824' '#48143' '#54869#51109#44592#50640' "'#52852#46300#47532#45908'-'#51648#47928#47532#45908'"    '#49324#50857#51060' '#50630#50612#50556' '#54632
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+      object txtTest: TText
+        Align = Top
+        Position.Y = 123.000000000000000000
+        Size.Width = 529.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Text = '2. '#51452#51109#52824' '#48143' '#54869#51109#44592#50640' "'#52852#46300#47532#45908'-'#51648#47928#47532#45908'"    '#49324#50857#51060' '#50630#50612#50556' '#54632
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Visible = False
+      end
+    end
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object txtHint: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+end

@@ -1,0 +1,35 @@
+object frameBodyBase: TframeBodyBase
+  Size.Width = 635.000000000000000000
+  Size.Height = 534.000000000000000000
+  Size.PlatformDefault = False
+  OnResize = FrameResize
+  object rectDeviceState: TRectangle
+    Align = Left
+    Fill.Kind = None
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 60.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 60.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 534.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object ScrollBox1: TScrollBox
+    Align = Client
+    Size.Width = 498.000000000000000000
+    Size.Height = 534.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 498.000000000000000000
+    Viewport.Height = 534.000000000000000000
+    object rectBody: TRectangle
+      Align = Top
+      Fill.Kind = None
+      Size.Width = 498.000000000000000000
+      Size.Height = 513.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+end

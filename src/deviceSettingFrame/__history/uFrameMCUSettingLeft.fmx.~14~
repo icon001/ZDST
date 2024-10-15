@@ -1,0 +1,97 @@
+object frameMCUSettingLeft: TframeMCUSettingLeft
+  Size.Width = 300.000000000000000000
+  Size.Height = 524.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Size.Width = 300.000000000000000000
+    Size.Height = 524.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 524.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Text1
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+      end>
+    object Text1: TText
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 290.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = #54869#51109#44592'(ECU) '#44288#47532
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+      OnMouseEnter = Text1MouseEnter
+      OnMouseLeave = Text1MouseLeave
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Padding.Left = 5.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 484.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 300.000000000000000000
+      Viewport.Height = 484.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Margins.Left = 10.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 185.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+    end
+  end
+  object RoundRect1: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Text2: TText
+      Align = Client
+      Size.Width = 265.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+end

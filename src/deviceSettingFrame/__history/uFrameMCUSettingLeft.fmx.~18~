@@ -1,0 +1,197 @@
+object frameMCUSettingLeft: TframeMCUSettingLeft
+  Size.Width = 253.000000000000000000
+  Size.Height = 524.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Size.Width = 253.000000000000000000
+    Size.Height = 524.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 253.000000000000000000
+    Size.Height = 524.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Text1
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = FlowLayout2
+        Row = 2
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Text1: TText
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Size.Width = 243.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = #54869#51109#44592'(ECU) '#44288#47532
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+      OnMouseEnter = Text1MouseEnter
+      OnMouseLeave = Text1MouseLeave
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Padding.Left = 5.000000000000000000
+      Size.Width = 253.000000000000000000
+      Size.Height = 434.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 253.000000000000000000
+      Viewport.Height = 434.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Margins.Left = 10.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 185.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+    end
+    object FlowLayout2: TFlowLayout
+      Align = Client
+      Size.Width = 253.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+      object chk00: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Text = '00'
+        TextSettings.FontColor = claWhite
+      end
+      object chk10: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 41.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = '10'
+        TextSettings.FontColor = claWhite
+      end
+      object chk20: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 82.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = '20'
+        TextSettings.FontColor = claWhite
+      end
+      object chk30: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 123.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = '30'
+        TextSettings.FontColor = claWhite
+      end
+      object chk40: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 164.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = '40'
+        TextSettings.FontColor = claWhite
+      end
+      object chk50: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 205.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = '50'
+        TextSettings.FontColor = claWhite
+      end
+      object chk60: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.Y = 19.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = '60'
+        TextSettings.FontColor = claWhite
+      end
+      object chkAll: TCheckBox
+        StyledSettings = [Family, Size, Style]
+        Position.X = 41.000000000000000000
+        Position.Y = 19.000000000000000000
+        Size.Width = 41.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'All'
+        TextSettings.FontColor = claWhite
+      end
+    end
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object Text2: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+end

@@ -1,0 +1,111 @@
+unit uFrameMCUSettingRight;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.EditBox,
+  FMX.SpinBox;
+
+type
+  TframeMCUSettingRight = class(TFrame)
+    Rectangle1: TRectangle;
+    roundHint: TRoundRect;
+    txtHint: TText;
+    GridPanelLayout1: TGridPanelLayout;
+    Text1: TText;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    rectControllerID: TRectangle;
+    lbControllerID: TLabel;
+    edControllerID: TEdit;
+    rectKTTSetting: TRectangle;
+    gbKTTConnectSetting: TGroupBox;
+    GridPanelLayout2: TGridPanelLayout;
+    txtKTTID: TText;
+    edKTTID: TEdit;
+    txtKTTPhoneNum1: TText;
+    edKTTPhoneNum1: TEdit;
+    txtKTTPhoneNum2: TText;
+    edKTTPhoneNum2: TEdit;
+    txtKTTArmRemote: TText;
+    spKTTArmRemote: TSpinBox;
+    txtKTTDisArmRemote: TText;
+    spKTTDisArmRemote: TSpinBox;
+    rectKTTMainComm: TRectangle;
+    gbKTTMainSetting: TGroupBox;
+    GridPanelLayout3: TGridPanelLayout;
+    rectTimeSync: TRectangle;
+    rectKTTMainType: TRectangle;
+    rdDedicate: TRadioButton;
+    rdTCPIP: TRadioButton;
+    rdWcdma: TRadioButton;
+    rectKTTMainMux: TRectangle;
+    txtKTTMux: TText;
+    edKTTMux: TEdit;
+    rectKTTMainTcpIPDetail: TRectangle;
+    txtTCPIPDetail: TText;
+    GridPanelLayout4: TGridPanelLayout;
+    Text7: TText;
+    edDDNSQuery: TEdit;
+    Text8: TText;
+    Edit4: TEdit;
+    Text9: TText;
+    Edit5: TEdit;
+    Text10: TText;
+    Edit6: TEdit;
+    Text11: TText;
+    Edit7: TEdit;
+    Text12: TText;
+    Edit8: TEdit;
+    Text13: TText;
+    Edit9: TEdit;
+    rectKTTMainFooter: TRectangle;
+    btnBasicIP: TCornerButton;
+    btnLTEIP: TCornerButton;
+    btnTCPIPSearch: TCornerButton;
+    btnTCPIPSetting: TCornerButton;
+    시간동기화: TGroupBox;
+    GridPanelLayout5: TGridPanelLayout;
+    Text2: TText;
+    Edit1: TEdit;
+    CornerButton1: TCornerButton;
+    Text3: TText;
+    Edit2: TEdit;
+    CornerButton2: TCornerButton;
+    procedure FlowLayout1Resize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TframeMCUSettingRight.FlowLayout1Resize(Sender: TObject);
+begin
+  rectControllerID.Width := FlowLayout1.Width;
+  rectKTTSetting.Width := 300;
+  rectKTTMainComm.Width := FlowLayout1.Width - rectKTTSetting.Width;
+  rectKTTSetting.Height := rectKTTMainComm.Height;
+
+  if rectKTTMainComm.Width <= 300 then
+  begin
+    rectKTTSetting.Height := 190;
+    rectKTTSetting.Width := FlowLayout1.Width;
+    rectKTTMainComm.Width := FlowLayout1.Width;
+  end;
+
+  //rectKTTSetting.Width := FlowLayout1.Width;
+end;
+
+procedure TframeMCUSettingRight.formCreate;
+begin
+
+end;
+
+end.

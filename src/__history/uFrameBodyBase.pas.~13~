@@ -1,0 +1,83 @@
+unit uFrameBodyBase;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Layouts, FMX.TreeView, System.ImageList, FMX.ImgList;
+
+type
+  TframeBodyBase = class(TFrame)
+    rectDeviceState: TRectangle;
+    ScrollBox1: TScrollBox;
+    rectBody: TRectangle;
+    TreeView_Device: TTreeView;
+    ImageList1: TImageList;
+    procedure FrameResize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure TreeViewChange;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+(*
+constructor TframeBodyBase.Create(AOwner: TComponent);
+var
+  RootNode, ChildNode: TTreeViewItem;
+begin
+
+  // 루트 노드 생성
+  RootNode := TTreeViewItem.Create(TreeView_Device);
+  RootNode.Text := '루트 노드';
+  TreeView_Device.AddObject(RootNode);
+
+  // 자식 노드 생성
+  ChildNode := TTreeViewItem.Create(RootNode);
+  ChildNode.Text := '자식 노드 1';
+  RootNode.AddObject(ChildNode);
+
+  ChildNode := TTreeViewItem.Create(RootNode);
+  ChildNode.Text := '자식 노드 2';
+  RootNode.AddObject(ChildNode);
+
+  // 트리뷰 갱신
+  //TreeView_Device.ExpandAll;
+end;
+ *)
+
+procedure TframeBodyBase.FrameResize(Sender: TObject);
+begin
+  if (Height > 500 ) then rectBody.Height := Height    //높이를 768보다 작게 만들지는 않는다.
+  else rectBody.Height := 500;
+end;
+
+procedure TframeBodyBase.TreeViewChange;
+var
+  RootNode, ChildNode: TTreeViewItem;
+begin
+
+  // 루트 노드 생성
+  RootNode := TTreeViewItem.Create(TreeView_Device);
+  RootNode.Text := '루트 노드';
+  TreeView_Device.AddObject(RootNode);
+
+  // 자식 노드 생성
+  ChildNode := TTreeViewItem.Create(RootNode);
+  ChildNode.Text := '자식 노드 1';
+  RootNode.AddObject(ChildNode);
+
+  ChildNode := TTreeViewItem.Create(RootNode);
+  ChildNode.Text := '자식 노드 2';
+  RootNode.AddObject(ChildNode);
+
+  // 트리뷰 갱신
+  //TreeView_Device.ExpandAll;
+end;
+
+end.

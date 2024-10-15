@@ -1,0 +1,58 @@
+object frameLanSettingExplain: TframeLanSettingExplain
+  Size.Width = 274.000000000000000000
+  Size.Height = 520.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 60.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 60.000000000000000000
+    Size.Width = 274.000000000000000000
+    Size.Height = 520.000000000000000000
+    Size.PlatformDefault = False
+    object Text1: TText
+      Align = Top
+      Position.X = 10.000000000000000000
+      Position.Y = 110.000000000000000000
+      Size.Width = 254.000000000000000000
+      Size.Height = 171.000000000000000000
+      Size.PlatformDefault = False
+      Text = #47700#51064' '#52968#53944#47204#47084#51032' Lan '#51221#48372#47484' '#49444#51221' '#54616#44256' '#51109#52824#50640' '#50672#44208' '#54624' '#49688' '#51080#45716' '#47700#45684#51077#45768#45796'.'
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Leading
+    end
+    object Text2: TText
+      Align = Top
+      Position.X = 10.000000000000000000
+      Position.Y = 60.000000000000000000
+      Size.Width = 254.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #50672#44208' '#49444#51221
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Leading
+    end
+    object Text3: TText
+      Align = Bottom
+      Position.X = 10.000000000000000000
+      Position.Y = 410.000000000000000000
+      Size.Width = 254.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Device Connect'
+      TextSettings.HorzAlign = Leading
+    end
+    object Text4: TText
+      Align = Bottom
+      Position.X = 10.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 254.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Device Connect'
+      TextSettings.HorzAlign = Leading
+    end
+  end
+end

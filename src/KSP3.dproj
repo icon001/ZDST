@@ -148,13 +148,83 @@
             <Form>fmDeviceSetting</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="uFrameLanSettingExplain.pas">
-            <Form>frameLanSettingExplain</Form>
+        <DCCReference Include="uFrameEtcExplain.pas">
+            <Form>frameEtcExplain</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="uFrameLanSettingDetails.pas">
             <Form>FrameLanSettingDetails</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameLanSettingExplain.pas">
+            <Form>frameLanSettingExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameDeviceSettingExplain.pas">
+            <Form>frameDeviceSettingExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameScheduleSettingExplain.pas">
+            <Form>frameScheduleSettingExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameCardSettingExplain.pas">
+            <Form>frameCardSettingExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameRemoteControlExplain.pas">
+            <Form>frameRemoteControlExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameMonitoringExplain.pas">
+            <Form>frameMonitorinExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameDeviceSettingDetails.pas">
+            <Form>frameDeviceSettingDetails</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameBodyBase.pas">
+            <Form>frameBodyBase</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameMainToLocalDevice.pas">
+            <Form>frameMainToLocalDevice</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameECUList.pas">
+            <Form>frameECUList</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameMCUSettingLeft.pas">
+            <Form>frameMCUSettingLeft</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameSystemInfoSetting.pas">
+            <Form>frameSystemInfoSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\lib\FMX\uFMXFormUtil.pas">
+            <Form>dmFMXFormUtil</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameMCUSettingRight.pas">
+            <Form>frameMCUSettingRight</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>

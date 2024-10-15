@@ -17,7 +17,7 @@ object TStyleContainer
       Size.PlatformDefault = False
       Stroke.Kind = None
       object TInnerGlowEffect
-        Softness = 0.400000005960464400
+        Softness = 0.400000005960464500
         GlowColor = xFF4F4848
         Opacity = 0.899999976158142100
         Trigger = 'IsPressed=true'
@@ -36,11 +36,11 @@ object TStyleContainer
     end
     object TGlyph
       StyleName = 'glyphstyle'
-      Margins.Left = 2.000000000000000000
+      Margins.Left = 10.000000000000000000
       Margins.Top = 4.000000000000000000
       Margins.Right = 2.000000000000000000
       Margins.Bottom = 2.000000000000000000
-      Align = Center
+      Align = Left
       Size.Width = 40.000000000000000000
       Size.Height = 40.000000000000000000
       Size.PlatformDefault = False

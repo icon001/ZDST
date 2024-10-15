@@ -24,8 +24,22 @@ uses
   u_strings in '..\lib\Device\Winsockunits\u_strings.pas',
   u_types_constants in '..\lib\Device\Winsockunits\u_types_constants.pas',
   uDeviceSetting in 'uDeviceSetting.pas' {fmDeviceSetting},
+  uFrameEtcExplain in 'uFrameEtcExplain.pas' {frameEtcExplain: TFrame},
+  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
   uFrameLanSettingExplain in 'uFrameLanSettingExplain.pas' {frameLanSettingExplain: TFrame},
-  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame};
+  uFrameDeviceSettingExplain in 'uFrameDeviceSettingExplain.pas' {frameDeviceSettingExplain: TFrame},
+  uFrameScheduleSettingExplain in 'uFrameScheduleSettingExplain.pas' {frameScheduleSettingExplain: TFrame},
+  uFrameCardSettingExplain in 'uFrameCardSettingExplain.pas' {frameCardSettingExplain: TFrame},
+  uFrameRemoteControlExplain in 'uFrameRemoteControlExplain.pas' {frameRemoteControlExplain: TFrame},
+  uFrameMonitoringExplain in 'uFrameMonitoringExplain.pas' {frameMonitorinExplain: TFrame},
+  uFrameDeviceSettingDetails in 'uFrameDeviceSettingDetails.pas' {frameDeviceSettingDetails: TFrame},
+  uFrameBodyBase in 'uFrameBodyBase.pas' {frameBodyBase: TFrame},
+  uFrameMainToLocalDevice in 'deviceSettingFrame\uFrameMainToLocalDevice.pas' {frameMainToLocalDevice: TFrame},
+  uFrameECUList in 'deviceSettingFrame\uFrameECUList.pas' {frameECUList: TFrame},
+  uFrameMCUSettingLeft in 'deviceSettingFrame\uFrameMCUSettingLeft.pas' {frameMCUSettingLeft: TFrame},
+  uFrameSystemInfoSetting in 'deviceSettingFrame\uFrameSystemInfoSetting.pas' {frameSystemInfoSetting: TFrame},
+  uFMXFormUtil in '..\lib\FMX\uFMXFormUtil.pas' {dmFMXFormUtil: TDataModule},
+  uFrameMCUSettingRight in 'deviceSettingFrame\uFrameMCUSettingRight.pas' {frameMCUSettingRight: TFrame};
 
 {$R *.res}
 
@@ -38,5 +52,6 @@ begin
   Application.CreateForm(TdmDBInsert, dmDBInsert);
   Application.CreateForm(TdmNode, dmNode);
   Application.CreateForm(TfmDeviceSetting, fmDeviceSetting);
+  Application.CreateForm(TdmFMXFormUtil, dmFMXFormUtil);
   Application.Run;
 end.

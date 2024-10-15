@@ -1,0 +1,26 @@
+unit uFrameECUList;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.Layouts, FMX.Objects;
+
+type
+  TframeECUList = class(TFrame)
+    Rectangle2: TRectangle;
+    GridPanelLayout2: TGridPanelLayout;
+    CheckBox1: TCheckBox;
+    Label1: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

@@ -1,0 +1,70 @@
+unit uFrameSystemInfoSetting;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.EditBox,
+  FMX.SpinBox, FMX.ListBox;
+
+type
+  TframeSystemInfoSetting = class(TFrame)
+    Rectangle1: TRectangle;
+    roundHint: TRoundRect;
+    txtHint: TText;
+    GridPanelLayout1: TGridPanelLayout;
+    Text1: TText;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    rectSystemInfoSetting: TRectangle;
+    gbSystemInfoSetting: TGroupBox;
+    GridPanelLayout2: TGridPanelLayout;
+    txtPowOnOFF: TText;
+    cmbPowerOnOFF: TComboBox;
+    procedure FlowLayout1Resize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TframeSystemInfoSetting.FlowLayout1Resize(Sender: TObject);
+begin
+
+  //rectKTTSetting.Width := FlowLayout1.Width;
+end;
+
+procedure TframeSystemInfoSetting.formCreate;
+var
+  rect: TRectangle;
+  listBox: TListBox;
+begin
+// ComboBox 배경색 변경
+  cmbPowerOnOFF.StyleLookup := 'comboboxstyle';
+  cmbPowerOnOFF.StyledSettings := cmbPowerOnOFF.StyledSettings - [TStyledSetting.Style, TStyledSetting.FontColor];
+  cmbPowerOnOFF.TextSettings.FontColor := TAlphaColors.Black; // 글씨 색상 검정색
+  cmbPowerOnOFF.ApplyStyleLookup; // 스타일 적용
+
+  // 배경색 변경
+
+  rect := cmbPowerOnOFF.FindStyleResource('background') as TRectangle;
+  if rect <> nil then
+    rect.Fill.Color := TAlphaColors.Yellow; // 배경색 노랑색
+
+  // 드롭다운 리스트 색상 변경
+  listBox := cmbPowerOnOFF.FindStyleResource('listbox') as TListBox;
+  if listBox <> nil then
+  begin
+    listBox.StyledSettings := listBox.StyledSettings - [TStyledSetting.Style, TStyledSetting.FontColor];
+    listBox.TextSettings.FontColor := TAlphaColors.Black; // 드롭다운 리스트 글씨 색상 검정색
+    listBox.ApplyStyleLookup; // 스타일 적용
+  end
+end;
+
+end.
