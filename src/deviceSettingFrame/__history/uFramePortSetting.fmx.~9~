@@ -1,0 +1,1183 @@
+object framePortSetting: TframePortSetting
+  Size.Width = 1200.000000000000000000
+  Size.Height = 1200.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object txtHint: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Text1
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object Text1: TText
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = #54252#53944'('#51316') '#49444#51221
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 1150.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 1180.000000000000000000
+      Viewport.Height = 1150.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Align = Top
+        Size.Width = 1180.000000000000000000
+        Size.Height = 465.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        OnResize = FlowLayout1Resize
+        object rectPortSetting: TRectangle
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 10.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Size.Width = 713.000000000000000000
+          Size.Height = 320.000000000000000000
+          Size.PlatformDefault = False
+          object gbPortSetting: TGroupBox
+            Align = Client
+            Padding.Top = 20.000000000000000000
+            Size.Width = 698.000000000000000000
+            Size.Height = 310.000000000000000000
+            Size.PlatformDefault = False
+            Text = #54252#53944'('#51316') '#49444#51221
+            TabOrder = 0
+            object GridPanelLayout2: TGridPanelLayout
+              Align = Client
+              Padding.Left = 5.000000000000000000
+              Padding.Top = 5.000000000000000000
+              Padding.Right = 5.000000000000000000
+              Padding.Bottom = 5.000000000000000000
+              Size.Width = 698.000000000000000000
+              Size.Height = 290.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  Value = 20.273562370099930000
+                end
+                item
+                  Value = 19.974625618293250000
+                end
+                item
+                  Value = 19.863716351846250000
+                end
+                item
+                  Value = 19.944047829880290000
+                end
+                item
+                  Value = 19.944047829880290000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Rectangle2
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = Rectangle3
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = Rectangle4
+                  Row = 0
+                end
+                item
+                  Column = 3
+                  Control = Rectangle5
+                  Row = 0
+                end
+                item
+                  Column = 4
+                  Control = Rectangle6
+                  Row = 0
+                end
+                item
+                  Column = 5
+                  Control = Rectangle7
+                  Row = 0
+                end
+                item
+                  Column = 0
+                  Control = Rectangle8
+                  Row = 1
+                end
+                item
+                  Column = 1
+                  Control = ComboBox1
+                  Row = 1
+                end
+                item
+                  Column = 2
+                  Control = ComboBox2
+                  Row = 1
+                end
+                item
+                  Column = 3
+                  Control = ComboBox3
+                  Row = 1
+                end
+                item
+                  Column = 4
+                  Control = ComboBox4
+                  Row = 1
+                end
+                item
+                  Column = 5
+                  Control = ComboBox5
+                  Row = 1
+                end
+                item
+                  Column = 0
+                  Control = Rectangle9
+                  Row = 2
+                end
+                item
+                  Column = 1
+                  Control = ComboBox6
+                  Row = 2
+                end
+                item
+                  Column = 2
+                  Control = ComboBox7
+                  Row = 2
+                end
+                item
+                  Column = 3
+                  Control = ComboBox8
+                  Row = 2
+                end
+                item
+                  Column = 4
+                  Control = ComboBox9
+                  Row = 2
+                end
+                item
+                  Column = 5
+                  Control = ComboBox10
+                  Row = 2
+                end
+                item
+                  Column = 0
+                  Control = Rectangle10
+                  Row = 3
+                end
+                item
+                  Column = 1
+                  Control = ComboBox11
+                  Row = 3
+                end
+                item
+                  Column = 2
+                  Control = ComboBox12
+                  Row = 3
+                end
+                item
+                  Column = 3
+                  Control = ComboBox13
+                  Row = 3
+                end
+                item
+                  Column = 4
+                  Control = ComboBox14
+                  Row = 3
+                end
+                item
+                  Column = 5
+                  Control = ComboBox15
+                  Row = 3
+                end
+                item
+                  Column = 0
+                  Control = Rectangle11
+                  Row = 4
+                end
+                item
+                  Column = 1
+                  Control = ComboBox16
+                  Row = 4
+                end
+                item
+                  Column = 2
+                  Control = ComboBox17
+                  Row = 4
+                end
+                item
+                  Column = 3
+                  Control = ComboBox18
+                  Row = 4
+                end
+                item
+                  Column = 4
+                  Control = ComboBox19
+                  Row = 4
+                end
+                item
+                  Column = 5
+                  Control = ComboBox20
+                  Row = 4
+                end
+                item
+                  Column = 0
+                  Control = Rectangle12
+                  Row = 5
+                end
+                item
+                  Column = 1
+                  Control = ComboBox21
+                  Row = 5
+                end
+                item
+                  Column = 2
+                  Control = ComboBox22
+                  Row = 5
+                end
+                item
+                  Column = 3
+                  Control = ComboBox23
+                  Row = 5
+                end
+                item
+                  Column = 4
+                  Control = ComboBox24
+                  Row = 5
+                end
+                item
+                  Column = 5
+                  Control = ComboBox25
+                  Row = 5
+                end
+                item
+                  Column = 0
+                  Control = Rectangle13
+                  Row = 6
+                end
+                item
+                  Column = 1
+                  Control = ComboBox26
+                  Row = 6
+                end
+                item
+                  Column = 2
+                  Control = ComboBox27
+                  Row = 6
+                end
+                item
+                  Column = 3
+                  Control = ComboBox28
+                  Row = 6
+                end
+                item
+                  Column = 4
+                  Control = ComboBox29
+                  Row = 6
+                end
+                item
+                  Column = 5
+                  Control = ComboBox30
+                  Row = 6
+                end
+                item
+                  Column = 0
+                  Control = Rectangle14
+                  Row = 7
+                end
+                item
+                  Column = 1
+                  Control = ComboBox31
+                  Row = 7
+                end
+                item
+                  Column = 2
+                  Control = ComboBox32
+                  Row = 7
+                end
+                item
+                  Column = 3
+                  Control = ComboBox33
+                  Row = 7
+                end
+                item
+                  Column = 4
+                  Control = ComboBox34
+                  Row = 7
+                end
+                item
+                  Column = 5
+                  Control = ComboBox35
+                  Row = 7
+                end
+                item
+                  Column = 0
+                  Control = Rectangle15
+                  Row = 8
+                end
+                item
+                  Column = 1
+                  Control = ComboBox36
+                  Row = 8
+                end
+                item
+                  Column = 2
+                  Control = ComboBox37
+                  Row = 8
+                end
+                item
+                  Column = 3
+                  Control = ComboBox38
+                  Row = 8
+                end
+                item
+                  Column = 4
+                  Control = ComboBox39
+                  Row = 8
+                end
+                item
+                  Column = 5
+                  Control = ComboBox40
+                  Row = 8
+                end>
+              RowCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                end
+                item
+                  SizeStyle = Absolute
+                end
+                item
+                  SizeStyle = Absolute
+                end
+                item
+                  SizeStyle = Absolute
+                end
+                item
+                  SizeStyle = Absolute
+                end
+                item
+                  SizeStyle = Absolute
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Rectangle2: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text2: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #51316#48264#54840
+                end
+              end
+              object Rectangle3: TRectangle
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text3: TText
+                  Align = Client
+                  Size.Width = 121.372680664062500000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #44048#49884#54805#53468
+                end
+              end
+              object Rectangle4: TRectangle
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text4: TText
+                  Align = Client
+                  Size.Width = 119.435577392578100000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #51648#50672#49884#44036
+                end
+              end
+              object Rectangle5: TRectangle
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text5: TText
+                  Align = Client
+                  Size.Width = 118.716888427734400000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48373#44396#49888#54840
+                end
+              end
+              object Rectangle6: TRectangle
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text6: TText
+                  Align = Client
+                  Size.Width = 119.237426757812500000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48169#48276#44396#50669
+                end
+              end
+              object Rectangle7: TRectangle
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text7: TText
+                  Align = Client
+                  Size.Width = 119.237426757812500000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #51316#49324#50857#50976#47924
+                end
+              end
+              object Rectangle8: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text8: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '1'
+                end
+              end
+              object ComboBox1: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 49
+              end
+              object ComboBox2: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 13
+              end
+              object ComboBox3: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 12
+              end
+              object ComboBox4: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 11
+              end
+              object ComboBox5: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 10
+              end
+              object Rectangle9: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text9: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '2'
+                end
+              end
+              object ComboBox6: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 48
+              end
+              object ComboBox7: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 17
+              end
+              object ComboBox8: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 16
+              end
+              object ComboBox9: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 15
+              end
+              object ComboBox10: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 14
+              end
+              object Rectangle10: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text10: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '3'
+                end
+              end
+              object ComboBox11: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 47
+              end
+              object ComboBox12: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 21
+              end
+              object ComboBox13: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 20
+              end
+              object ComboBox14: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 19
+              end
+              object ComboBox15: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 18
+              end
+              object Rectangle11: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text11: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '4'
+                end
+              end
+              object ComboBox16: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 46
+              end
+              object ComboBox17: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 25
+              end
+              object ComboBox18: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 24
+              end
+              object ComboBox19: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 23
+              end
+              object ComboBox20: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 22
+              end
+              object Rectangle12: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text12: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '5'
+                end
+              end
+              object ComboBox21: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 45
+              end
+              object ComboBox22: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 29
+              end
+              object ComboBox23: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 28
+              end
+              object ComboBox24: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 27
+              end
+              object ComboBox25: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 26
+              end
+              object Rectangle13: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text13: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '6'
+                end
+              end
+              object ComboBox26: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 44
+              end
+              object ComboBox27: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 33
+              end
+              object ComboBox28: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 32
+              end
+              object ComboBox29: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 31
+              end
+              object ComboBox30: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 30
+              end
+              object Rectangle14: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text14: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '7'
+                end
+              end
+              object ComboBox31: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 43
+              end
+              object ComboBox32: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 37
+              end
+              object ComboBox33: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 36
+              end
+              object ComboBox34: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 35
+              end
+              object ComboBox35: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 34
+              end
+              object Rectangle15: TRectangle
+                Align = Client
+                Size.Width = 40.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                object Text15: TText
+                  Align = Client
+                  Size.Width = 40.000000000000000000
+                  Size.Height = 20.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '8'
+                end
+              end
+              object ComboBox36: TComboBox
+                Align = Client
+                Size.Width = 121.372680664062500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 42
+              end
+              object ComboBox37: TComboBox
+                Align = Client
+                Size.Width = 119.435577392578100000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 41
+              end
+              object ComboBox38: TComboBox
+                Align = Client
+                Size.Width = 118.716888427734400000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 40
+              end
+              object ComboBox39: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 39
+              end
+              object ComboBox40: TComboBox
+                Align = Client
+                Size.Width = 119.237426757812500000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 38
+              end
+            end
+          end
+        end
+        object rectEmZone: TRectangle
+          Position.Y = 320.000000000000000000
+          Size.Width = 713.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          object gbEmZone: TGroupBox
+            Align = Top
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Size.Width = 713.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            Text = #48708#49345#51316' '#51060#49345' '#48156#49373#49884
+            TabOrder = 0
+            object GridPanelLayout3: TGridPanelLayout
+              Align = Client
+              Padding.Left = 5.000000000000000000
+              Padding.Top = 5.000000000000000000
+              Padding.Right = 5.000000000000000000
+              Padding.Bottom = 5.000000000000000000
+              Size.Width = 693.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Text16
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = cmbEmZoneLamp
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = Text17
+                  Row = 0
+                end
+                item
+                  Column = 3
+                  Control = cmbEmZoneSiren
+                  Row = 0
+                end>
+              RowCollection = <
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Text16: TText
+                Align = Client
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47016#54532
+              end
+              object cmbEmZoneLamp: TComboBox
+                Align = Client
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 43
+              end
+              object Text17: TText
+                Align = Client
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                Text = #49324#51060#47116
+              end
+              object cmbEmZoneSiren: TComboBox
+                Align = Client
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 42
+              end
+            end
+          end
+        end
+        object rectMoveTime: TRectangle
+          Position.Y = 385.000000000000000000
+          Size.Width = 713.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          object gbMoveTime: TGroupBox
+            Align = Top
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Size.Width = 713.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            Text = #46041#51089#49884#44036
+            TabOrder = 0
+            object GridPanelLayout4: TGridPanelLayout
+              Align = Client
+              Padding.Left = 5.000000000000000000
+              Padding.Top = 5.000000000000000000
+              Padding.Right = 5.000000000000000000
+              Padding.Bottom = 5.000000000000000000
+              Size.Width = 693.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Text18
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = rectLampTime
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = Text19
+                  Row = 0
+                end
+                item
+                  Column = 3
+                  Control = rectSirenTime
+                  Row = 0
+                end>
+              RowCollection = <
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Text18: TText
+                Align = Client
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47016#54532
+              end
+              object rectLampTime: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object edLampTime: TEdit
+                  StyleName = 'StyleBook1'
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Left
+                  StyleLookup = 'editstyle'
+                  TabOrder = 0
+                  Size.Width = 41.000000000000000000
+                  Size.Height = 22.000000000000000000
+                  Size.PlatformDefault = False
+                end
+                object txtLampTime: TText
+                  Align = Client
+                  Size.Width = 49.000000000000000000
+                  Size.Height = 22.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #52488
+                end
+              end
+              object Text19: TText
+                Align = Client
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                Text = #49324#51060#47116
+              end
+              object rectSirenTime: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 90.000000000000000000
+                Size.Height = 22.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object edSirenTime: TEdit
+                  StyleName = 'StyleBook1'
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Left
+                  StyleLookup = 'editstyle'
+                  TabOrder = 0
+                  Size.Width = 41.000000000000000000
+                  Size.Height = 22.000000000000000000
+                  Size.PlatformDefault = False
+                end
+                object txtSirenTime: TText
+                  Align = Client
+                  Size.Width = 49.000000000000000000
+                  Size.Height = 22.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #52488
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end

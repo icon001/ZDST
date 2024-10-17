@@ -119,6 +119,7 @@
           object edControllerID: TEdit
             Touch.InteractiveGestures = [LongTap, DoubleTap]
             Align = Left
+            StyleLookup = 'Edit1Style1'
             TabOrder = 1
             Position.X = 97.000000000000000000
             Position.Y = 10.000000000000000000

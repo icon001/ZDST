@@ -1,0 +1,1866 @@
+object frameCardReaderSetting: TframeCardReaderSetting
+  Size.Width = 1200.000000000000000000
+  Size.Height = 1200.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object txtHint: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = txtHeader
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = Rectangle2
+        Row = 2
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+        Value = 150.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object txtHeader: TText
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52852#46300#47532#45908' '#51221#48372' '#49444#51221
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 1000.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 1180.000000000000000000
+      Viewport.Height = 1000.000000000000000000
+      object rectCardReaderSetting: TRectangle
+        Size.Width = 1180.000000000000000000
+        Size.Height = 330.000000000000000000
+        Size.PlatformDefault = False
+        object rectTop: TRectangle
+          Align = Top
+          Padding.Left = 10.000000000000000000
+          Padding.Top = 10.000000000000000000
+          Padding.Right = 10.000000000000000000
+          Padding.Bottom = 10.000000000000000000
+          Size.Width = 1180.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          object txtAllCardReaderType: TText
+            Align = Left
+            Position.X = 10.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908#51333#47448
+            TextSettings.HorzAlign = Leading
+          end
+          object cmbAllReaderType: TComboBox
+            Align = Left
+            Items.Strings = (
+              #51068#48152#47532#45908'(CRO-811)'
+              #51648#47928#47532#45908'(CRO-801)')
+            ItemIndex = 0
+            Margins.Left = 10.000000000000000000
+            Position.X = 117.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 300.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+          end
+        end
+        object rectCenter: TRectangle
+          Align = Client
+          Size.Width = 1180.000000000000000000
+          Size.Height = 280.000000000000000000
+          Size.PlatformDefault = False
+          object GridPanelLayout2: TGridPanelLayout
+            Align = Client
+            Size.Width = 1180.000000000000000000
+            Size.Height = 280.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            ColumnCollection = <
+              item
+                SizeStyle = Absolute
+                Value = 70.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 150.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 80.000000000000000000
+              end
+              item
+                Value = 100.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 0
+                Control = rectReaderNoHeader
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = rectReaderUseHeader
+                Row = 0
+              end
+              item
+                Column = 2
+                Control = rectReaderDoorNum
+                Row = 0
+              end
+              item
+                Column = 3
+                Control = rectReaderDoorPosition
+                Row = 0
+              end
+              item
+                Column = 4
+                Control = rectReaderBuildingPosition
+                Row = 0
+              end
+              item
+                Column = 5
+                Control = rectReaderType
+                Row = 0
+              end
+              item
+                Column = 6
+                Control = rectArmArea
+                Row = 0
+              end
+              item
+                Column = 7
+                Control = rectSoundUse
+                Row = 0
+              end
+              item
+                Column = 8
+                Control = rectOutSound
+                Row = 0
+              end
+              item
+                Column = 9
+                Control = rectReaderVer
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = rectReaderNo1
+                Row = 1
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse1
+                Row = 1
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum1
+                Row = 1
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi1
+                Row = 1
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi1
+                Row = 1
+              end
+              item
+                Column = 5
+                Control = cmbReaderType1
+                Row = 1
+              end
+              item
+                Column = 6
+                Control = cmbArmArea1
+                Row = 1
+              end
+              item
+                Column = 7
+                Control = cmbSound1
+                Row = 1
+              end
+              item
+                Column = 8
+                Control = cmbOutSound1
+                Row = 1
+              end
+              item
+                Column = 9
+                Control = edReaderVer1
+                Row = 1
+              end
+              item
+                Column = 0
+                Control = rectReaderNo2
+                Row = 2
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse2
+                Row = 2
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum2
+                Row = 2
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi2
+                Row = 2
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi2
+                Row = 2
+              end
+              item
+                Column = 5
+                Control = cmbReaderType2
+                Row = 2
+              end
+              item
+                Column = 6
+                Control = cmbArmArea2
+                Row = 2
+              end
+              item
+                Column = 7
+                Control = cmbSound2
+                Row = 2
+              end
+              item
+                Column = 8
+                Control = cmbOutSound2
+                Row = 2
+              end
+              item
+                Column = 9
+                Control = edReaderVer2
+                Row = 2
+              end
+              item
+                Column = 0
+                Control = rectReaderNo3
+                Row = 3
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse3
+                Row = 3
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum3
+                Row = 3
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi3
+                Row = 3
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi3
+                Row = 3
+              end
+              item
+                Column = 5
+                Control = cmbReaderType3
+                Row = 3
+              end
+              item
+                Column = 6
+                Control = cmbArmArea3
+                Row = 3
+              end
+              item
+                Column = 7
+                Control = cmbSound3
+                Row = 3
+              end
+              item
+                Column = 8
+                Control = cmbOutSound3
+                Row = 3
+              end
+              item
+                Column = 9
+                Control = edReaderVer3
+                Row = 3
+              end
+              item
+                Column = 0
+                Control = rectReaderNo4
+                Row = 4
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse4
+                Row = 4
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum4
+                Row = 4
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi4
+                Row = 4
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi4
+                Row = 4
+              end
+              item
+                Column = 5
+                Control = cmbReaderType4
+                Row = 4
+              end
+              item
+                Column = 6
+                Control = cmbArmArea4
+                Row = 4
+              end
+              item
+                Column = 7
+                Control = cmbSound4
+                Row = 4
+              end
+              item
+                Column = 8
+                Control = cmbOutSound4
+                Row = 4
+              end
+              item
+                Column = 9
+                Control = edReaderVer4
+                Row = 4
+              end
+              item
+                Column = 0
+                Control = rectReaderNo5
+                Row = 5
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse5
+                Row = 5
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum5
+                Row = 5
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi5
+                Row = 5
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi5
+                Row = 5
+              end
+              item
+                Column = 5
+                Control = cmbReaderType5
+                Row = 5
+              end
+              item
+                Column = 6
+                Control = cmbArmArea5
+                Row = 5
+              end
+              item
+                Column = 7
+                Control = cmbSound5
+                Row = 5
+              end
+              item
+                Column = 8
+                Control = cmbOutSound5
+                Row = 5
+              end
+              item
+                Column = 9
+                Control = edReaderVer5
+                Row = 5
+              end
+              item
+                Column = 0
+                Control = rectReaderNo6
+                Row = 6
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse6
+                Row = 6
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum6
+                Row = 6
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi6
+                Row = 6
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi6
+                Row = 6
+              end
+              item
+                Column = 5
+                Control = cmbReaderType6
+                Row = 6
+              end
+              item
+                Column = 6
+                Control = cmbArmArea6
+                Row = 6
+              end
+              item
+                Column = 7
+                Control = cmbSound6
+                Row = 6
+              end
+              item
+                Column = 8
+                Control = cmbOutSound6
+                Row = 6
+              end
+              item
+                Column = 9
+                Control = edReaderVer6
+                Row = 6
+              end
+              item
+                Column = 0
+                Control = rectReaderNo7
+                Row = 7
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse7
+                Row = 7
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum7
+                Row = 7
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi7
+                Row = 7
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi7
+                Row = 7
+              end
+              item
+                Column = 5
+                Control = cmbReaderType7
+                Row = 7
+              end
+              item
+                Column = 6
+                Control = cmbArmArea7
+                Row = 7
+              end
+              item
+                Column = 7
+                Control = cmbSound7
+                Row = 7
+              end
+              item
+                Column = 8
+                Control = cmbOutSound7
+                Row = 7
+              end
+              item
+                Column = 9
+                Control = edReaderVer7
+                Row = 7
+              end
+              item
+                Column = 0
+                Control = rectReaderNo8
+                Row = 8
+              end
+              item
+                Column = 1
+                Control = cmbReaderUse8
+                Row = 8
+              end
+              item
+                Column = 2
+                Control = cmbDoorNum8
+                Row = 8
+              end
+              item
+                Column = 3
+                Control = cmbDoorPosi8
+                Row = 8
+              end
+              item
+                Column = 4
+                Control = cmbBuildingPosi8
+                Row = 8
+              end
+              item
+                Column = 5
+                Control = cmbReaderType8
+                Row = 8
+              end
+              item
+                Column = 6
+                Control = cmbArmArea8
+                Row = 8
+              end
+              item
+                Column = 7
+                Control = cmbSound8
+                Row = 8
+              end
+              item
+                Column = 8
+                Control = cmbOutSound8
+                Row = 8
+              end
+              item
+                Column = 9
+                Control = edReaderVer8
+                Row = 8
+              end>
+            RowCollection = <
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                Value = 100.000000000000000000
+              end>
+            object rectReaderNoHeader: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNoHeader: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47532#45908#48264#54840
+              end
+            end
+            object rectReaderUseHeader: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderUseHeader: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #49324#50857#50976#47924
+              end
+            end
+            object rectReaderDoorNum: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderDoorNum: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47928#48264#54840
+              end
+            end
+            object rectReaderDoorPosition: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderDoorPosition: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47928#50948#52824
+              end
+            end
+            object rectReaderBuildingPosition: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderBuildingPosition: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44148#47932#50948#52824
+              end
+            end
+            object rectReaderType: TRectangle
+              Align = Client
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderType: TText
+                Align = Client
+                Size.Width = 150.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47532#45908#51333#47448
+              end
+            end
+            object rectArmArea: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtArmArea: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #48169#48276#44396#50669
+              end
+            end
+            object rectSoundUse: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtSoundUse: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #51020#49457#49569#52636
+              end
+            end
+            object rectOutSound: TRectangle
+              Align = Client
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtOutSound: TText
+                Align = Client
+                Size.Width = 80.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #53748#49892#51020#49457
+              end
+            end
+            object rectReaderVer: TRectangle
+              Align = Client
+              Size.Width = 400.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderVer: TText
+                Align = Client
+                Size.Width = 400.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = #47532#45908#48260#51204
+              end
+            end
+            object rectReaderNo1: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo1: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '1'
+              end
+            end
+            object cmbReaderUse1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 64
+            end
+            object cmbDoorNum1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 56
+            end
+            object cmbDoorPosi1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 48
+            end
+            object cmbBuildingPosi1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 40
+            end
+            object cmbReaderType1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 32
+            end
+            object cmbArmArea1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 24
+            end
+            object cmbSound1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 16
+            end
+            object cmbOutSound1: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 8
+            end
+            object edReaderVer1: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 82
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo2: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo2: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '2'
+              end
+            end
+            object cmbReaderUse2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 63
+            end
+            object cmbDoorNum2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 55
+            end
+            object cmbDoorPosi2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 47
+            end
+            object cmbBuildingPosi2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 39
+            end
+            object cmbReaderType2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 31
+            end
+            object cmbArmArea2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 23
+            end
+            object cmbSound2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 15
+            end
+            object cmbOutSound2: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 7
+            end
+            object edReaderVer2: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 81
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo3: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo3: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '3'
+              end
+            end
+            object cmbReaderUse3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 62
+            end
+            object cmbDoorNum3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 54
+            end
+            object cmbDoorPosi3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 46
+            end
+            object cmbBuildingPosi3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 38
+            end
+            object cmbReaderType3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 30
+            end
+            object cmbArmArea3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 22
+            end
+            object cmbSound3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 14
+            end
+            object cmbOutSound3: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 6
+            end
+            object edReaderVer3: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 80
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo4: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo4: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '4'
+              end
+            end
+            object cmbReaderUse4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 61
+            end
+            object cmbDoorNum4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 53
+            end
+            object cmbDoorPosi4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 45
+            end
+            object cmbBuildingPosi4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 37
+            end
+            object cmbReaderType4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 29
+            end
+            object cmbArmArea4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 21
+            end
+            object cmbSound4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 13
+            end
+            object cmbOutSound4: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 5
+            end
+            object edReaderVer4: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 79
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo5: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo5: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '5'
+              end
+            end
+            object cmbReaderUse5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 60
+            end
+            object cmbDoorNum5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 52
+            end
+            object cmbDoorPosi5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 44
+            end
+            object cmbBuildingPosi5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 36
+            end
+            object cmbReaderType5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 28
+            end
+            object cmbArmArea5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 20
+            end
+            object cmbSound5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 12
+            end
+            object cmbOutSound5: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 4
+            end
+            object edReaderVer5: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 78
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo6: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo6: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '6'
+              end
+            end
+            object cmbReaderUse6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 59
+            end
+            object cmbDoorNum6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 51
+            end
+            object cmbDoorPosi6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 43
+            end
+            object cmbBuildingPosi6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 35
+            end
+            object cmbReaderType6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 27
+            end
+            object cmbArmArea6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 19
+            end
+            object cmbSound6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 11
+            end
+            object cmbOutSound6: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 3
+            end
+            object edReaderVer6: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 77
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo7: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo7: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '7'
+              end
+            end
+            object cmbReaderUse7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 58
+            end
+            object cmbDoorNum7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 50
+            end
+            object cmbDoorPosi7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 42
+            end
+            object cmbBuildingPosi7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 34
+            end
+            object cmbReaderType7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 26
+            end
+            object cmbArmArea7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 18
+            end
+            object cmbSound7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 10
+            end
+            object cmbOutSound7: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+            end
+            object edReaderVer7: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 76
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+            object rectReaderNo8: TRectangle
+              Align = Client
+              Size.Width = 70.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              object txtReaderNo8: TText
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Text = '8'
+              end
+            end
+            object cmbReaderUse8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48120#49324#50857
+                #49324#50857)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 57
+            end
+            object cmbDoorNum8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #48169#48276#51204#50857
+                '1'
+                '2'
+                '3'
+                '4'
+                '5'
+                '6'
+                '7'
+                '8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 49
+            end
+            object cmbDoorPosi8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 41
+            end
+            object cmbBuildingPosi8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #45236#48512
+                #50808#48512)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 33
+            end
+            object cmbReaderType8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #51068#48152#47532#45908'(CRO-811)'
+                #51648#47928#47532#45908'(CRO-801)')
+              ItemIndex = 0
+              Size.Width = 150.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 25
+            end
+            object cmbArmArea8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #44396#50669'1'
+                #44396#50669'2'
+                #44396#50669'3'
+                #44396#50669'4'
+                #44396#50669'5'
+                #44396#50669'6'
+                #44396#50669'7'
+                #44396#50669'8')
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 17
+            end
+            object cmbSound8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 9
+            end
+            object cmbOutSound8: TComboBox
+              Align = Client
+              Items.Strings = (
+                #49324#50857#50504#54632
+                #51020#49457#49569#52636)
+              ItemIndex = 0
+              Size.Width = 80.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+            end
+            object edReaderVer8: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 75
+              Margins.Left = 2.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 396.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+    end
+    object Rectangle2: TRectangle
+      Align = Client
+      Fill.Kind = None
+      Size.Width = 1180.000000000000000000
+      Size.Height = 140.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Text1: TText
+        Align = Top
+        Size.Width = 1180.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        Text = #48516#44592#44397#49324#45716' '#51068#48152#47532#45908#47196' '#46321#47197#54633#45768#45796'.'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+      object Text2: TText
+        Align = Top
+        Position.Y = 79.000000000000000000
+        Size.Width = 1180.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = #44148#47932#50948#52824#45716' '#45236#48512'/'#50808#48512#50640' '#46384#46972' '#44221'/'#54644' LED'#47484' '#45124#44144#45208' '#53020' '#51469#45768#45796'.'
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Leading
+      end
+      object Text3: TText
+        Align = Top
+        Position.Y = 49.000000000000000000
+        Size.Width = 1180.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = #47928#50948#52824#45716' '#52636#51077#49884' '#45236#48512'/'#50808#48512' '#54032#45800#50857#51004#47196' '#49324#50857#46121#45768#45796'.'
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Leading
+      end
+    end
+  end
+end

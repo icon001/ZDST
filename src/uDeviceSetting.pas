@@ -52,6 +52,8 @@ type
     txtDeviceType: TText;
     Text4: TText;
     txtCardType: TText;
+    Text5: TText;
+    Text6: TText;
     procedure FormCreate(Sender: TObject);
     procedure btnExitClick(Sender: TObject);
     procedure btnConnectClick(Sender: TObject);

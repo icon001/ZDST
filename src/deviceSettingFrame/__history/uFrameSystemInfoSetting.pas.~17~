@@ -1,0 +1,134 @@
+unit uFrameSystemInfoSetting;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.EditBox,
+  FMX.SpinBox, FMX.ListBox;
+
+type
+  TframeSystemInfoSetting = class(TFrame)
+    Rectangle1: TRectangle;
+    roundHint: TRoundRect;
+    txtHint: TText;
+    GridPanelLayout1: TGridPanelLayout;
+    Text1: TText;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    rectSystemSetting: TRectangle;
+    gbSystemInfoSetting: TGroupBox;
+    GridPanelLayout2: TGridPanelLayout;
+    txtKTTID: TText;
+    StyleBook1: TStyleBook;
+    ComboBox1: TComboBox;
+    Text2: TText;
+    Rectangle3: TRectangle;
+    Text3: TText;
+    Rectangle2: TRectangle;
+    Text4: TText;
+    Rectangle4: TRectangle;
+    ComboBox2: TComboBox;
+    Rectangle5: TRectangle;
+    CheckBox1: TCheckBox;
+    Text5: TText;
+    Rectangle6: TRectangle;
+    ComboBox3: TComboBox;
+    Rectangle7: TRectangle;
+    ComboBox4: TComboBox;
+    Text6: TText;
+    Rectangle8: TRectangle;
+    ComboBox5: TComboBox;
+    Rectangle9: TRectangle;
+    ComboBox6: TComboBox;
+    Text7: TText;
+    Rectangle10: TRectangle;
+    ComboBox7: TComboBox;
+    Rectangle11: TRectangle;
+    ComboBox8: TComboBox;
+    Text8: TText;
+    Rectangle12: TRectangle;
+    ComboBox9: TComboBox;
+    Rectangle13: TRectangle;
+    ComboBox10: TComboBox;
+    Text9: TText;
+    Rectangle14: TRectangle;
+    ComboBox11: TComboBox;
+    Rectangle15: TRectangle;
+    ComboBox12: TComboBox;
+    Text10: TText;
+    Rectangle16: TRectangle;
+    ComboBox13: TComboBox;
+    Rectangle17: TRectangle;
+    ComboBox14: TComboBox;
+    Text11: TText;
+    Rectangle18: TRectangle;
+    ComboBox15: TComboBox;
+    Rectangle19: TRectangle;
+    ComboBox16: TComboBox;
+    Text12: TText;
+    Rectangle20: TRectangle;
+    ComboBox17: TComboBox;
+    Rectangle21: TRectangle;
+    ComboBox18: TComboBox;
+    Text13: TText;
+    ComboBox19: TComboBox;
+    Text14: TText;
+    ComboBox20: TComboBox;
+    Text15: TText;
+    edit: TEdit;
+    rectETCSetting: TRectangle;
+    FlowLayout2: TFlowLayout;
+    Rectangle22: TRectangle;
+    GroupBox1: TGroupBox;
+    Edit1: TEdit;
+    Text16: TText;
+    CornerButton1: TCornerButton;
+    Rectangle23: TRectangle;
+    GroupBox2: TGroupBox;
+    ComboBox21: TComboBox;
+    Rectangle24: TRectangle;
+    GroupBox3: TGroupBox;
+    ComboBox22: TComboBox;
+    GridPanelLayout3: TGridPanelLayout;
+    Text17: TText;
+    ComboBox23: TComboBox;
+    Text18: TText;
+    ComboBox24: TComboBox;
+    Text19: TText;
+    ComboBox25: TComboBox;
+    Text20: TText;
+    ComboBox26: TComboBox;
+    Text21: TText;
+    ComboBox27: TComboBox;
+    Text22: TText;
+    ComboBox28: TComboBox;
+    Text23: TText;
+    ComboBox29: TComboBox;
+    Text24: TText;
+    ComboBox30: TComboBox;
+    procedure FlowLayout1Resize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TframeSystemInfoSetting.FlowLayout1Resize(Sender: TObject);
+begin
+  //
+end;
+
+procedure TframeSystemInfoSetting.formCreate;
+begin
+  StyleBook1.LoadFromFile('E:\2024\Project\XE10.2\Style\editYellow.style');
+  edit.StyleLookup :='Edit1Style1';
+end;
+
+end.

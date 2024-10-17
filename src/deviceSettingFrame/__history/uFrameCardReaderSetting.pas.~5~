@@ -1,0 +1,91 @@
+unit uFrameCardReaderSetting;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.EditBox,
+  FMX.SpinBox, FMX.ListBox;
+
+type
+  TframeCardReaderSetting = class(TFrame)
+    Rectangle1: TRectangle;
+    roundHint: TRoundRect;
+    txtHint: TText;
+    GridPanelLayout1: TGridPanelLayout;
+    txtHeader: TText;
+    ScrollBox1: TScrollBox;
+    rectCardReaderSetting: TRectangle;
+    rectTop: TRectangle;
+    txtAllCardReaderType: TText;
+    cmbAllReaderType: TComboBox;
+    rectCenter: TRectangle;
+    GridPanelLayout2: TGridPanelLayout;
+    Rectangle2: TRectangle;
+    Text1: TText;
+    rectReaderNoHeader: TRectangle;
+    txtReaderNoHeader: TText;
+    rectReaderUseHeader: TRectangle;
+    txtReaderUseHeader: TText;
+    rectReaderDoorNum: TRectangle;
+    txtReaderDoorNum: TText;
+    rectReaderDoorPosition: TRectangle;
+    txtReaderDoorPosition: TText;
+    rectReaderBuildingPosition: TRectangle;
+    txtReaderBuildingPosition: TText;
+    Text2: TText;
+    Text3: TText;
+    rectReaderType: TRectangle;
+    txtReaderType: TText;
+    rectArmArea: TRectangle;
+    txtArmArea: TText;
+    rectSoundUse: TRectangle;
+    txtSoundUse: TText;
+    rectOutSound: TRectangle;
+    txtOutSound: TText;
+    rectReaderVer: TRectangle;
+    txtReaderVer: TText;
+    ReaderNo1: TRectangle;
+    Text4: TText;
+    cmbReaderUse1: TComboBox;
+    cmbDoorNum1: TComboBox;
+    procedure FlowLayout1Resize(Sender: TObject);
+    procedure ScrollBox1Resize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TframeCardReaderSetting.FlowLayout1Resize(Sender: TObject);
+begin
+  (*
+  FlowLayout1.Height := rectETCSetting.Position.Y + rectETCSetting.Height;
+
+  if FlowLayout1.Height <= 600 then
+  begin
+    ScrollBox1.RealignContent;
+  end;
+  *)
+
+end;
+
+procedure TframeCardReaderSetting.formCreate;
+begin
+  //StyleBook1.LoadFromFile('E:\2024\Project\XE10.2\Style\editYellow.style');
+  //edit.StyleLookup :='Edit1Style1';
+end;
+
+procedure TframeCardReaderSetting.ScrollBox1Resize(Sender: TObject);
+begin
+  //
+
+end;
+
+end.

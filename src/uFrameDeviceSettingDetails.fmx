@@ -7,10 +7,12 @@ object frameDeviceSettingDetails: TframeDeviceSettingDetails
     Size.Width = 1024.000000000000000000
     Size.Height = 450.000000000000000000
     Size.PlatformDefault = False
-    TabIndex = 2
+    TabIndex = 7
     TabOrder = 0
     TabPosition = PlatformDefault
     Sizes = (
+      1024s
+      423s
       1024s
       423s
       1024s
@@ -156,7 +158,7 @@ object frameDeviceSettingDetails: TframeDeviceSettingDetails
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 80.000000000000000000
       Size.Height = 27.000000000000000000
       Size.PlatformDefault = False
@@ -215,6 +217,42 @@ object frameDeviceSettingDetails: TframeDeviceSettingDetails
       Text = #54252#53944#49444#51221
       ExplicitSize.cx = 68.000000000000000000
       ExplicitSize.cy = 27.000000000000000000
+      object rectPort: TRectangle
+        Align = Client
+        Fill.Color = xFF2C343F
+        Margins.Left = 7.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 7.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 1010.000000000000000000
+        Size.Height = 409.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+    end
+    object tabZoneExtend: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 80.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = #44048#51109#44592#49444#51221
+      object rectZoneExtend: TRectangle
+        Align = Client
+        Fill.Color = xFF2C343F
+        Margins.Left = 7.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 7.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 1010.000000000000000000
+        Size.Height = 409.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
     end
     object tabArmAreaState: TTabItem
       CustomIcon = <
@@ -229,6 +267,18 @@ object frameDeviceSettingDetails: TframeDeviceSettingDetails
       Text = #44396#50669#44221#44228#54788#54889
       ExplicitSize.cx = 92.000000000000000000
       ExplicitSize.cy = 27.000000000000000000
+      object rectArmAreaState: TRectangle
+        Align = Client
+        Fill.Color = xFF2C343F
+        Margins.Left = 7.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 7.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 1010.000000000000000000
+        Size.Height = 409.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
     end
     object tabCardReader: TTabItem
       CustomIcon = <
@@ -243,12 +293,23 @@ object frameDeviceSettingDetails: TframeDeviceSettingDetails
       Text = #52852#46300#47532#45908#49444#51221
       ExplicitSize.cx = 92.000000000000000000
       ExplicitSize.cy = 27.000000000000000000
+      object rectCardReader: TRectangle
+        Align = Client
+        Fill.Color = xFF2C343F
+        Margins.Left = 7.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 7.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 1010.000000000000000000
+        Size.Height = 409.000000000000000000
+        Size.PlatformDefault = False
+      end
     end
     object tabDoor: TTabItem
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 80.000000000000000000
       Size.Height = 27.000000000000000000
       Size.PlatformDefault = False
@@ -257,6 +318,17 @@ object frameDeviceSettingDetails: TframeDeviceSettingDetails
       Text = #52636#51077#47928#49444#51221
       ExplicitSize.cx = 80.000000000000000000
       ExplicitSize.cy = 27.000000000000000000
+      object rectDoorSetting: TRectangle
+        Align = Client
+        Fill.Color = xFF2C343F
+        Margins.Left = 7.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 7.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 1010.000000000000000000
+        Size.Height = 409.000000000000000000
+        Size.PlatformDefault = False
+      end
     end
     object tabBLE: TTabItem
       CustomIcon = <

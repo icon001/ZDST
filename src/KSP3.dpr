@@ -37,9 +37,14 @@ uses
   uFrameMainToLocalDevice in 'deviceSettingFrame\uFrameMainToLocalDevice.pas' {frameMainToLocalDevice: TFrame},
   uFrameECUList in 'deviceSettingFrame\uFrameECUList.pas' {frameECUList: TFrame},
   uFrameMCUSettingLeft in 'deviceSettingFrame\uFrameMCUSettingLeft.pas' {frameMCUSettingLeft: TFrame},
-  uFrameSystemInfoSetting in 'deviceSettingFrame\uFrameSystemInfoSetting.pas' {frameSystemInfoSetting: TFrame},
+  uFrameArmAreaState in 'deviceSettingFrame\uFrameArmAreaState.pas' {frameArmAreaState: TFrame},
   uFMXFormUtil in '..\lib\FMX\uFMXFormUtil.pas' {dmFMXFormUtil: TDataModule},
-  uFrameMCUSettingRight in 'deviceSettingFrame\uFrameMCUSettingRight.pas' {frameMCUSettingRight: TFrame};
+  uFrameMCUSettingRight in 'deviceSettingFrame\uFrameMCUSettingRight.pas' {frameMCUSettingRight: TFrame},
+  uFrameSystemInfoSetting in 'deviceSettingFrame\uFrameSystemInfoSetting.pas' {frameSystemInfoSetting: TFrame},
+  uFramePortSetting in 'deviceSettingFrame\uFramePortSetting.pas' {framePortSetting: TFrame},
+  uFrameCardReaderSetting in 'deviceSettingFrame\uFrameCardReaderSetting.pas' {frameCardReaderSetting: TFrame},
+  uFrameDoorSetting in 'deviceSettingFrame\uFrameDoorSetting.pas' {frameDoorSetting: TFrame},
+  uFrameExtZonePortSetting in 'deviceSettingFrame\uFrameExtZonePortSetting.pas' {frameExtZonePortSetting: TFrame};
 
 {$R *.res}
 

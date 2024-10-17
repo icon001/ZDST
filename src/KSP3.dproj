@@ -213,8 +213,8 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="deviceSettingFrame\uFrameSystemInfoSetting.pas">
-            <Form>frameSystemInfoSetting</Form>
+        <DCCReference Include="deviceSettingFrame\uFrameArmAreaState.pas">
+            <Form>frameArmAreaState</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -225,6 +225,31 @@
         </DCCReference>
         <DCCReference Include="deviceSettingFrame\uFrameMCUSettingRight.pas">
             <Form>frameMCUSettingRight</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameSystemInfoSetting.pas">
+            <Form>frameSystemInfoSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFramePortSetting.pas">
+            <Form>framePortSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameCardReaderSetting.pas">
+            <Form>frameCardReaderSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameDoorSetting.pas">
+            <Form>frameDoorSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameExtZonePortSetting.pas">
+            <Form>frameExtZonePortSetting</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
