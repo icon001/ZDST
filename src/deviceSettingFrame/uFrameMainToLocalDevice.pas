@@ -65,7 +65,7 @@ begin
     chkbox.Width := 50;
     chkbox.Text := FillZeroNumber(i,2);
     chkbox.Name := 'checkEcuList' + inttostr(i);
-      chkbox.TextSettings.FontColor := TAlphaColors.White; // 글씨 색상 검정색
+    chkbox.TextSettings.FontColor := TAlphaColors.Black; // 글씨 색상 검정색
     chkbox.StyledSettings := [];
     chkbox.StyleLookup := 'rectangleborderstyle';
     chkbox.Visible := True;

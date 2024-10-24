@@ -1,0 +1,63 @@
+object frameDoorList: TframeDoorList
+  Size.Width = 103.000000000000000000
+  Size.Height = 40.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle2: TRectangle
+    Align = Client
+    Size.Width = 103.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    object GridPanelLayout2: TGridPanelLayout
+      Align = Client
+      Padding.Left = 5.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 103.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          SizeStyle = Absolute
+          Value = 30.000000000000000000
+        end
+        item
+          Value = 100.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = chk_DoorNum
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = lbl_DoorNum
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object chk_DoorNum: TCheckBox
+        Align = Client
+        Size.Width = 20.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+      object lbl_DoorNum: TLabel
+        Align = Client
+        Size.Width = 63.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = '00-01'
+        TabOrder = 1
+      end
+    end
+  end
+end

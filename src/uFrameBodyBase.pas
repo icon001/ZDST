@@ -23,26 +23,62 @@ type
     { Public declarations }
     procedure TreeViewChange;
     procedure FormInitiailize;
+    procedure ExtendFormVisible(no: Integer);
   end;
 
 implementation
 
 uses
-  uFrameDeviceSettingDetails;
+  uFrameDeviceSettingDetails,
+  uFrameLanSettingDetails,
+  uFrameFirmwareDetails,
+  uFrameScheduleSettingDetails;
 
 {$R *.fmx}
+
+procedure TframeBodyBase.ExtendFormVisible(no: Integer);
+var
+  i : integer;
+begin
+  for i := 0 to Length(frameDetailBodyArray)-1 do
+  begin
+    if frameDetailBodyArray[i]<>nil then frameDetailBodyArray[i].Visible := False;
+  end;
+  if (no < Length(frameDetailBodyArray)) and (frameDetailBodyArray[no]<>nil) then frameDetailBodyArray[no].Visible := True;
+
+end;
 
 procedure TframeBodyBase.FormInitiailize;
 begin
   TreeViewChange;
 
-  SetLength(frameDetailBodyArray,5); //기기설정,스케줄,카드등록,원격제어,모니터링
-  frameDetailBodyArray[0]:= TframeDeviceSettingDetails.Create(self);
+  SetLength(frameDetailBodyArray,8); //기기설정,스케줄,카드등록,원격제어,모니터링
+
+
+  frameDetailBodyArray[0]:= TFrameLanSettingDetails.Create(self);
   frameDetailBodyArray[0].Parent := rectBody;
   frameDetailBodyArray[0].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
   TFrame(frameDetailBodyArray[0]).Visible := True;
-  TframeDeviceSettingDetails(frameDetailBodyArray[0]).FormInitiailize;
+  TFrameLanSettingDetails(frameDetailBodyArray[0]).FormInitiailize;
 
+  frameDetailBodyArray[1]:= TframeDeviceSettingDetails.Create(self);
+  frameDetailBodyArray[1].Parent := rectBody;
+  frameDetailBodyArray[1].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TFrame(frameDetailBodyArray[1]).Visible := False;
+  TframeDeviceSettingDetails(frameDetailBodyArray[1]).FormInitiailize;
+
+  frameDetailBodyArray[2]:= TFrameScheduleSettingDetails.Create(self);
+  frameDetailBodyArray[2].Parent := rectBody;
+  frameDetailBodyArray[2].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TFrame(frameDetailBodyArray[2]).Visible := False;
+  TFrameScheduleSettingDetails(frameDetailBodyArray[2]).FormInitiailize;
+
+  //펌웨어 다운로드
+  frameDetailBodyArray[7]:= TframeFirmwareDetails.Create(self);
+  frameDetailBodyArray[7].Parent := rectBody;
+  frameDetailBodyArray[7].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TFrame(frameDetailBodyArray[7]).Visible := False;
+  TframeFirmwareDetails(frameDetailBodyArray[7]).FormInitiailize;
 
 end;
 

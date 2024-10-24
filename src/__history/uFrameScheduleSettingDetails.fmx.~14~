@@ -1,0 +1,258 @@
+object frameScheduleSettingDetails: TframeScheduleSettingDetails
+  Size.Width = 2000.000000000000000000
+  Size.Height = 2000.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Size.Width = 2000.000000000000000000
+    Size.Height = 2000.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 2000.000000000000000000
+      Size.Height = 2000.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 100.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = txtHeader
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = ScrollBox1
+          Row = 1
+        end>
+      RowCollection = <
+        item
+          SizeStyle = Absolute
+          Value = 40.000000000000000000
+        end
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Absolute
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object txtHeader: TText
+        Align = Client
+        Size.Width = 1980.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = #49828#52992#51460' '#44288#47532
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Leading
+      end
+      object ScrollBox1: TScrollBox
+        Align = Client
+        Size.Width = 1980.000000000000000000
+        Size.Height = 1950.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 1980.000000000000000000
+        Viewport.Height = 1950.000000000000000000
+        object FlowLayout1: TFlowLayout
+          Size.Width = 900.000000000000000000
+          Size.Height = 1950.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Justify = Left
+          JustifyLastLine = Left
+          FlowDirection = LeftToRight
+          object rectFirmwareFileSelect: TRectangle
+            Size.Width = 785.000000000000000000
+            Size.Height = 57.000000000000000000
+            Size.PlatformDefault = False
+            object gbFirmwareFileSelect: TGroupBox
+              Align = Top
+              Padding.Left = 10.000000000000000000
+              Padding.Top = 20.000000000000000000
+              Padding.Right = 10.000000000000000000
+              Padding.Bottom = 10.000000000000000000
+              Size.Width = 785.000000000000000000
+              Size.Height = 57.000000000000000000
+              Size.PlatformDefault = False
+              Text = #54869#51109#44592' '#49440#53469
+              TabOrder = 0
+              object Text1: TText
+                Align = Left
+                Position.X = 10.000000000000000000
+                Position.Y = 20.000000000000000000
+                Size.Width = 95.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'ECU ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object ComboBox2: TComboBox
+                Align = Left
+                Margins.Left = 5.000000000000000000
+                Position.X = 110.000000000000000000
+                Position.Y = 20.000000000000000000
+                Size.Width = 163.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+              end
+              object btnSchduleSearch: TCornerButton
+                Align = Left
+                Margins.Left = 5.000000000000000000
+                Position.X = 278.000000000000000000
+                Position.Y = 20.000000000000000000
+                Sides = [Top, Left, Bottom, Right]
+                Size.Width = 96.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                Text = #49828#52992#51460' '#51312#54924
+                XRadius = 3.000000000000000000
+                YRadius = 3.000000000000000000
+              end
+              object btnInitialize: TCornerButton
+                Align = Right
+                Position.X = 679.000000000000000000
+                Position.Y = 20.000000000000000000
+                Sides = [Top, Left, Bottom, Right]
+                Size.Width = 96.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                Text = #49828#52992#51460' '#52488#44592#54868
+                XRadius = 3.000000000000000000
+                YRadius = 3.000000000000000000
+              end
+              object btnScheduleReg: TCornerButton
+                Align = Left
+                Position.X = 374.000000000000000000
+                Position.Y = 20.000000000000000000
+                Sides = [Top, Left, Bottom, Right]
+                Size.Width = 96.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                Text = #49828#52992#51460' '#46321#47197
+                XRadius = 3.000000000000000000
+                YRadius = 3.000000000000000000
+              end
+              object Rectangle3D1: TRectangle3D
+                Width = 4.000000000000000000
+                Height = 4.000000000000000000
+                Depth = 1.000000000000000000
+                CornerType = Round
+                Flatness = 1.000000000000000000
+                Sides = [Front, Back, Shaft]
+              end
+            end
+          end
+          object Rectangle3: TRectangle
+            Position.Y = 57.000000000000000000
+            Size.Width = 785.000000000000000000
+            Size.Height = 592.000000000000000000
+            Size.PlatformDefault = False
+            object Rectangle2: TRectangle
+              Align = Left
+              Size.Width = 145.000000000000000000
+              Size.Height = 592.000000000000000000
+              Size.PlatformDefault = False
+              object ScrollBox2: TScrollBox
+                Align = Client
+                Size.Width = 145.000000000000000000
+                Size.Height = 592.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                Viewport.Width = 145.000000000000000000
+                Viewport.Height = 592.000000000000000000
+                object FlowLayout2: TFlowLayout
+                  Align = Top
+                  Size.Width = 145.000000000000000000
+                  Size.Height = 425.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  Justify = Left
+                  JustifyLastLine = Left
+                  FlowDirection = LeftToRight
+                  object Rectangle4: TRectangle
+                    Align = Top
+                    Fill.Kind = None
+                    Size.Width = 140.000000000000000000
+                    Size.Height = 33.000000000000000000
+                    Size.PlatformDefault = False
+                    Stroke.Kind = None
+                    object Text2: TText
+                      Align = Client
+                      Size.Width = 140.000000000000000000
+                      Size.Height = 33.000000000000000000
+                      Size.PlatformDefault = False
+                      Text = #52636#51077#47928
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object ImageList1: TImageList
+    Source = <
+      item
+        MultiResBitmap.Height = 10
+        MultiResBitmap.Width = 10
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 3.000000000000000000
+            Width = 30
+            Height = 30
+            PNG = {
+              89504E470D0A1A0A0000000D494844520000001E0000001E08060000003B30AE
+              A2000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01D549444154484BED96BF4E024110C6C1D6563C4D9404237636BE010F60D404
+              49D044AE3A62FC134247612C2C08CF60A2476110D4180A6C7C00EDB5B236A1F0
+              21F0FB76C70B875CE0B88350F04BBEECCCDCDECECEB2BB4764C63412870A50AB
+              D303622FD029B40A850613DA926320E87B0D059E405AC653C0BF83B2D01A342F
+              5A97584DBA39203612CBF23E07788258F92012D0A3BCA6D0617F44A12BE84879
+              FE28485E85C4264651F232714C8726475312DF68D79B7D5158C455C900B667D5
+              31E913F6D2A8CD869677C07F0CC378B66DBB43D19670186425314F8603772EC9
+              20615D6C85699A19340FDA0B441279BF6844818A803968010F5C4909620D3486
+              F646A2C14A814A4AC467F5F52897B552A9ECEA476EDAEDF667A954DA14D72F2C
+              E8476C1728DC5D1067C3DF1866524702B3C331BB414C9D1A2EB5433E9F7F1773
+              4BDAA034519DB34FC4EEBB6F8A63D8D5431DD345E9C34E2B3A140A435D4CB7AC
+              DAB2AC37F12786AA5A3659FFDB668CECA9F506B0CF75C81726C44FAA7361F8E1
+              988959792A957A85CF8FFC2012E572F983EFC8A49774D83FDB7FC965A01A7400
+              6D40DD7F7D0EA1FB9EBE69C893619682BBFB026359D56A55473CC8E5723CABFC
+              F65E42DF2A18029CC0892AA70F7876267D664C1391C82F771870AC77E1041500
+              00000049454E44AE426082}
+            FileName = 'E:\2024\Project\2.4 ['#46356#51088#51064#51089#50629']\icon\refresh01-White.png'
+          end>
+        Name = 'refresh01-White'
+      end>
+    Destination = <
+      item
+        Layers = <
+          item
+            Name = 'refresh01-White'
+            SourceRect.Right = 10.000000000000000000
+            SourceRect.Bottom = 10.000000000000000000
+          end>
+      end>
+    Left = 802
+    Top = 60
+  end
+end

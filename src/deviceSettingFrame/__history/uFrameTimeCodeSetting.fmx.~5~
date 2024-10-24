@@ -1,0 +1,891 @@
+object frameTimeCodeSetting: TframeTimeCodeSetting
+  Size.Width = 1200.000000000000000000
+  Size.Height = 1200.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object txtHint: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = txtHeader
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object txtHeader: TText
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = #53440#51076#53076#46300' '#49444#51221
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 1150.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 1180.000000000000000000
+      Viewport.Height = 1150.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Size.Width = 945.000000000000000000
+        Size.Height = 1150.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        OnResize = FlowLayout1Resize
+        object rectTimeCode: TRectangle
+          Size.Width = 481.000000000000000000
+          Size.Height = 209.000000000000000000
+          Size.PlatformDefault = False
+          object gbTimeCodeUse: TGroupBox
+            Align = Top
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Size.Width = 481.000000000000000000
+            Size.Height = 73.000000000000000000
+            Size.PlatformDefault = False
+            Text = #53440#51076#53076#46300' '#49324#50857#50976#47924
+            TabOrder = 0
+            object Rectangle18: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 461.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text17: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #52636#51077#47928
+                TextSettings.HorzAlign = Trailing
+              end
+              object Rectangle2: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Padding.Left = 5.000000000000000000
+                Size.Width = 356.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object chkDoor1: TCheckBox
+                  Align = Left
+                  Position.X = 5.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  Text = '1'
+                end
+                object chkDoor2: TCheckBox
+                  Align = Left
+                  Position.X = 41.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 1
+                  Text = '2'
+                end
+                object chkDoor8: TCheckBox
+                  Align = Left
+                  Position.X = 257.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 2
+                  Text = '8'
+                end
+                object chkDoor7: TCheckBox
+                  Align = Left
+                  Position.X = 221.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 3
+                  Text = '7'
+                end
+                object chkDoor6: TCheckBox
+                  Align = Left
+                  Position.X = 185.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 4
+                  Text = '6'
+                end
+                object chkDoor5: TCheckBox
+                  Align = Left
+                  Position.X = 149.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 5
+                  Text = '5'
+                end
+                object chkDoor4: TCheckBox
+                  Align = Left
+                  Position.X = 113.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 6
+                  Text = '4'
+                end
+                object chkDoor3: TCheckBox
+                  Align = Left
+                  Position.X = 77.000000000000000000
+                  Size.Width = 36.000000000000000000
+                  Size.Height = 37.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 7
+                  Text = '3'
+                end
+              end
+            end
+          end
+          object gbTimeCode: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Size.Width = 481.000000000000000000
+            Size.Height = 136.000000000000000000
+            Size.PlatformDefault = False
+            Text = #53440#51076#53076#46300
+            TabOrder = 1
+            object GridPanelLayout2: TGridPanelLayout
+              Align = Client
+              Size.Width = 461.000000000000000000
+              Size.Height = 116.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 70.000000000000000000
+                end
+                item
+                  Value = 24.992862593933340000
+                end
+                item
+                  Value = 25.000910260603390000
+                end
+                item
+                  Value = 24.805416124478840000
+                end
+                item
+                  Value = 25.200811020984430000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Rectangle3
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = Rectangle4
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = Rectangle5
+                  Row = 0
+                end
+                item
+                  Column = 3
+                  Control = Rectangle6
+                  Row = 0
+                end
+                item
+                  Column = 4
+                  Control = Rectangle7
+                  Row = 0
+                end
+                item
+                  Column = 0
+                  Control = Rectangle8
+                  Row = 1
+                end
+                item
+                  Column = 1
+                  Control = Rectangle9
+                  Row = 1
+                end
+                item
+                  Column = 2
+                  Control = Rectangle10
+                  Row = 1
+                end
+                item
+                  Column = 3
+                  Control = Rectangle11
+                  Row = 1
+                end
+                item
+                  Column = 4
+                  Control = Rectangle12
+                  Row = 1
+                end
+                item
+                  Column = 0
+                  Control = Rectangle13
+                  Row = 2
+                end
+                item
+                  Column = 1
+                  Control = Rectangle14
+                  Row = 2
+                end
+                item
+                  Column = 2
+                  Control = Rectangle15
+                  Row = 2
+                end
+                item
+                  Column = 3
+                  Control = Rectangle16
+                  Row = 2
+                end
+                item
+                  Column = 4
+                  Control = Rectangle17
+                  Row = 2
+                end>
+              RowCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Rectangle3: TRectangle
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle4: TRectangle
+                Align = Client
+                Size.Width = 97.722091674804680000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text1: TText
+                  Align = Client
+                  Size.Width = 97.722091674804680000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '1 '#44396#44036
+                end
+              end
+              object Rectangle5: TRectangle
+                Align = Client
+                Size.Width = 97.753555297851560000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text2: TText
+                  Align = Client
+                  Size.Width = 97.753555297851560000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '2 '#44396#44036
+                end
+              end
+              object Rectangle6: TRectangle
+                Align = Client
+                Size.Width = 96.989166259765620000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text3: TText
+                  Align = Client
+                  Size.Width = 96.989166259765620000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '3 '#44396#44036
+                end
+              end
+              object Rectangle7: TRectangle
+                Align = Client
+                Size.Width = 98.535186767578120000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text4: TText
+                  Align = Client
+                  Size.Width = 98.535186767578120000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '4 '#44396#44036
+                end
+              end
+              object Rectangle8: TRectangle
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text5: TText
+                  Align = Client
+                  Size.Width = 70.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = 'Group 1'
+                end
+              end
+              object Rectangle9: TRectangle
+                Align = Client
+                Size.Width = 97.722091674804680000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout3: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 97.722091674804680000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit1
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit2
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit1: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 44.861045837402340000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit2: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 44.861045837402340000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle10: TRectangle
+                Align = Client
+                Size.Width = 97.753555297851560000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout4: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 97.753555297851560000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit3
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit4
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit3: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 44.876777648925780000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit4: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 44.876777648925780000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle11: TRectangle
+                Align = Client
+                Size.Width = 96.989166259765620000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout5: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 96.989166259765620000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit5
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit6
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit5: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 44.494583129882810000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit6: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 44.494583129882810000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle12: TRectangle
+                Align = Client
+                Size.Width = 98.535186767578120000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout6: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 98.535186767578120000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit7
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit8
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit7: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 45.267593383789060000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit8: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 45.267593383789060000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle13: TRectangle
+                Align = Client
+                Size.Width = 70.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text6: TText
+                  Align = Client
+                  Size.Width = 70.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = 'Group 2'
+                end
+              end
+              object Rectangle14: TRectangle
+                Align = Client
+                Size.Width = 97.722091674804680000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout7: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 97.722091674804680000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit9
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit10
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit9: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 44.861045837402340000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit10: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 44.861045837402340000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle15: TRectangle
+                Align = Client
+                Size.Width = 97.753555297851560000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout8: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 97.753555297851560000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit11
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit12
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit11: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 44.876777648925780000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit12: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 44.876777648925780000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle16: TRectangle
+                Align = Client
+                Size.Width = 96.989166259765620000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout9: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 96.989166259765620000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit13
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit14
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit13: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 44.494583129882810000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit14: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 44.494583129882810000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+              object Rectangle17: TRectangle
+                Align = Client
+                Size.Width = 98.535186767578120000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object GridPanelLayout10: TGridPanelLayout
+                  Align = Client
+                  Padding.Left = 2.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 2.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 98.535186767578120000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  ColumnCollection = <
+                    item
+                      Value = 50.000000000000000000
+                    end
+                    item
+                      Value = 50.000000000000000000
+                    end>
+                  ControlCollection = <
+                    item
+                      Column = 0
+                      Control = Edit15
+                      Row = 0
+                    end
+                    item
+                      Column = 1
+                      Control = Edit16
+                      Row = 0
+                    end>
+                  RowCollection = <
+                    item
+                      Value = 100.000000000000000000
+                    end
+                    item
+                      SizeStyle = Auto
+                    end>
+                  object Edit15: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 1
+                    Size.Width = 45.267593383789060000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                  object Edit16: TEdit
+                    Touch.InteractiveGestures = [LongTap, DoubleTap]
+                    Align = Client
+                    TabOrder = 0
+                    Size.Width = 45.267593383789060000
+                    Size.Height = 20.000000000000000000
+                    Size.PlatformDefault = False
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end

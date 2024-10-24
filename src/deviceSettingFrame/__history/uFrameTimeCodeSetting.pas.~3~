@@ -1,0 +1,100 @@
+unit uFrameTimeCodeSetting;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.EditBox,
+  FMX.SpinBox, FMX.ListBox;
+
+type
+  TframeTimeCodeSetting = class(TFrame)
+    Rectangle1: TRectangle;
+    roundHint: TRoundRect;
+    txtHint: TText;
+    GridPanelLayout1: TGridPanelLayout;
+    txtHeader: TText;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    rectICU: TRectangle;
+    gbICU: TGroupBox;
+    Rectangle18: TRectangle;
+    Text17: TText;
+    Rectangle2: TRectangle;
+    chkDoor1: TCheckBox;
+    procedure FlowLayout1Resize(Sender: TObject);
+    procedure ScrollBox1Resize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TframeTimeCodeSetting.FlowLayout1Resize(Sender: TObject);
+begin
+  (*
+  FlowLayout1.Height := rectETCSetting.Position.Y + rectETCSetting.Height;
+
+  if FlowLayout1.Height <= 600 then
+  begin
+    ScrollBox1.RealignContent;
+  end;
+  *)
+
+end;
+
+procedure TframeTimeCodeSetting.formCreate;
+begin
+  //StyleBook1.LoadFromFile('E:\2024\Project\XE10.2\Style\editYellow.style');
+  //edit.StyleLookup :='Edit1Style1';
+end;
+
+procedure TframeTimeCodeSetting.ScrollBox1Resize(Sender: TObject);
+begin
+  //FlowLayout1.Width := 345;
+
+  FlowLayout1.Width := ScrollBox1.Width - 20;
+  if rectICU.Visible then
+  begin
+    rectICU.Width := FlowLayout1.Width;
+    FlowLayout1.Height := rectICU.Position.Y + rectICU.Height;
+
+  end ;
+  if rectCardReader8.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader8.Position.Y + rectCardReader8.Height;
+  end else if rectCardReader7.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader7.Position.Y + rectCardReader7.Height;
+  end else if rectCardReader6.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader6.Position.Y + rectCardReader6.Height;
+  end else if rectCardReader5.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader5.Position.Y + rectCardReader5.Height;
+  end else if rectCardReader4.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader4.Position.Y + rectCardReader4.Height;
+  end else if rectCardReader3.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader3.Position.Y + rectCardReader3.Height;
+  end else if rectCardReader2.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader2.Position.Y + rectCardReader2.Height;
+  end else if rectCardReader1.Visible then
+  begin
+    FlowLayout1.Height := rectCardReader1.Position.Y + rectCardReader1.Height;
+  end;
+
+
+  if FlowLayout1.Width <= 450 then FlowLayout1.Width := 450;
+
+end;
+
+end.

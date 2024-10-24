@@ -1,0 +1,386 @@
+object frameFirmwareDetails: TframeFirmwareDetails
+  Size.Width = 2000.000000000000000000
+  Size.Height = 2000.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Size.Width = 2000.000000000000000000
+    Size.Height = 2000.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Padding.Left = 10.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 10.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Size.Width = 2000.000000000000000000
+      Size.Height = 2000.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 100.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = txtHeader
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = ScrollBox1
+          Row = 1
+        end>
+      RowCollection = <
+        item
+          SizeStyle = Absolute
+          Value = 40.000000000000000000
+        end
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Absolute
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object txtHeader: TText
+        Align = Client
+        Size.Width = 1980.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = #54156#50920#50612' '#50629#45936#51060#53944
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Leading
+      end
+      object ScrollBox1: TScrollBox
+        Align = Client
+        Size.Width = 1980.000000000000000000
+        Size.Height = 1950.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 1980.000000000000000000
+        Viewport.Height = 1950.000000000000000000
+        object FlowLayout1: TFlowLayout
+          Size.Width = 900.000000000000000000
+          Size.Height = 1950.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Justify = Left
+          JustifyLastLine = Left
+          FlowDirection = LeftToRight
+          object rectFirmwareFileSelect: TRectangle
+            Size.Width = 785.000000000000000000
+            Size.Height = 97.000000000000000000
+            Size.PlatformDefault = False
+            object gbFirmwareFileSelect: TGroupBox
+              Align = Top
+              Padding.Left = 10.000000000000000000
+              Padding.Top = 20.000000000000000000
+              Padding.Right = 10.000000000000000000
+              Padding.Bottom = 10.000000000000000000
+              Size.Width = 785.000000000000000000
+              Size.Height = 57.000000000000000000
+              Size.PlatformDefault = False
+              Text = #54156#50920#50612' '#54028#51068' '#49440#53469
+              TabOrder = 0
+              object Text1: TText
+                Align = Left
+                Position.X = 10.000000000000000000
+                Position.Y = 20.000000000000000000
+                Size.Width = 95.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                Text = #54156#50920#50612' '#54028#51068
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit1: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 1
+                Margins.Left = 10.000000000000000000
+                Margins.Right = 10.000000000000000000
+                Size.Width = 570.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object CornerButton1: TCornerButton
+                Align = Right
+                Position.X = 695.000000000000000000
+                Position.Y = 20.000000000000000000
+                Sides = [Top, Left, Bottom, Right]
+                Size.Width = 80.000000000000000000
+                Size.Height = 27.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                Text = #54028#51068#49440#53469
+                XRadius = 3.000000000000000000
+                YRadius = 3.000000000000000000
+              end
+            end
+            object Rectangle2: TRectangle
+              Align = Client
+              Fill.Kind = None
+              Padding.Left = 10.000000000000000000
+              Padding.Right = 10.000000000000000000
+              Size.Width = 785.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object Text2: TText
+                Align = Left
+                Position.X = 105.000000000000000000
+                Size.Width = 184.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'MCU500'
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claRed
+              end
+              object Text3: TText
+                Align = Left
+                Position.X = 10.000000000000000000
+                Size.Width = 95.000000000000000000
+                Size.Height = 40.000000000000000000
+                Size.PlatformDefault = False
+                Text = #52968#53944#47204#47084' '#53440#51077
+                TextSettings.HorzAlign = Trailing
+              end
+            end
+          end
+          object Rectangle3: TRectangle
+            Position.Y = 97.000000000000000000
+            Size.Width = 785.000000000000000000
+            Size.Height = 313.000000000000000000
+            Size.PlatformDefault = False
+            object TabControl1: TTabControl
+              Align = Client
+              Size.Width = 785.000000000000000000
+              Size.Height = 313.000000000000000000
+              Size.PlatformDefault = False
+              TabIndex = 0
+              TabOrder = 0
+              TabPosition = PlatformDefault
+              Sizes = (
+                785s
+                287s
+                785s
+                287s)
+              object tabFTPFirmware: TTabItem
+                CustomIcon = <
+                  item
+                  end>
+                IsSelected = True
+                Size.Width = 91.000000000000000000
+                Size.Height = 26.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = ''
+                TabOrder = 0
+                Text = 'FTP Firmware'
+                object GroupBox1: TGroupBox
+                  Align = Top
+                  Padding.Left = 10.000000000000000000
+                  Padding.Top = 20.000000000000000000
+                  Padding.Right = 10.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 785.000000000000000000
+                  Size.Height = 185.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #52968#53944#47204#47084' '#49440#53469
+                  TabOrder = 0
+                  object ScrollBox2: TScrollBox
+                    Align = Client
+                    Padding.Left = 10.000000000000000000
+                    Padding.Right = 10.000000000000000000
+                    Size.Width = 765.000000000000000000
+                    Size.Height = 160.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 0
+                    Viewport.Width = 765.000000000000000000
+                    Viewport.Height = 160.000000000000000000
+                    object rectEcuList: TRectangle
+                      Align = Top
+                      Fill.Kind = None
+                      Position.X = 10.000000000000000000
+                      Size.Width = 745.000000000000000000
+                      Size.Height = 150.000000000000000000
+                      Size.PlatformDefault = False
+                      Stroke.Color = claWhite
+                      object FlowLayout2: TFlowLayout
+                        Align = Client
+                        Size.Width = 745.000000000000000000
+                        Size.Height = 150.000000000000000000
+                        Size.PlatformDefault = False
+                        TabOrder = 0
+                        Justify = Left
+                        JustifyLastLine = Left
+                        FlowDirection = LeftToRight
+                      end
+                    end
+                  end
+                end
+                object FlowLayout3: TFlowLayout
+                  Align = Client
+                  Padding.Left = 10.000000000000000000
+                  Padding.Top = 5.000000000000000000
+                  Padding.Right = 10.000000000000000000
+                  Padding.Bottom = 5.000000000000000000
+                  Size.Width = 785.000000000000000000
+                  Size.Height = 102.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 3
+                  Justify = Left
+                  JustifyLastLine = Left
+                  FlowDirection = LeftToRight
+                  object chk00: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 10.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 7
+                    Text = '00'
+                  end
+                  object chk10: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 51.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 6
+                    Text = '10'
+                  end
+                  object chk20: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 92.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 5
+                    Text = '20'
+                  end
+                  object chk30: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 133.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 4
+                    Text = '30'
+                  end
+                  object chk40: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 174.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 3
+                    Text = '40'
+                  end
+                  object chk50: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 215.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 2
+                    Text = '50'
+                  end
+                  object chk60: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 256.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 1
+                    Text = '60'
+                  end
+                  object chkAll: TCheckBox
+                    StyledSettings = [Family, Size, Style]
+                    Position.X = 297.000000000000000000
+                    Position.Y = 5.000000000000000000
+                    Size.Width = 41.000000000000000000
+                    Size.Height = 19.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 0
+                    Text = 'All'
+                  end
+                end
+              end
+              object tabSeiralFirmware: TTabItem
+                CustomIcon = <
+                  item
+                  end>
+                IsSelected = False
+                Size.Width = 101.000000000000000000
+                Size.Height = 26.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = ''
+                TabOrder = 0
+                Text = 'Seiral Firmware'
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object ImageList1: TImageList
+    Source = <
+      item
+        MultiResBitmap.Height = 10
+        MultiResBitmap.Width = 10
+        MultiResBitmap.LoadSize = 0
+        MultiResBitmap = <
+          item
+            Scale = 3.000000000000000000
+            Width = 30
+            Height = 30
+            PNG = {
+              89504E470D0A1A0A0000000D494844520000001E0000001E08060000003B30AE
+              A2000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01D549444154484BED96BF4E024110C6C1D6563C4D9404237636BE010F60D404
+              49D044AE3A62FC134247612C2C08CF60A2476110D4180A6C7C00EDB5B236A1F0
+              21F0FB76C70B875CE0B88350F04BBEECCCDCDECECEB2BB4764C63412870A50AB
+              D303622FD029B40A850613DA926320E87B0D059E405AC653C0BF83B2D01A342F
+              5A97584DBA39203612CBF23E07788258F92012D0A3BCA6D0617F44A12BE84879
+              FE28485E85C4264651F232714C8726475312DF68D79B7D5158C455C900B667D5
+              31E913F6D2A8CD869677C07F0CC378B66DBB43D19670186425314F8603772EC9
+              20615D6C85699A19340FDA0B441279BF6844818A803968010F5C4909620D3486
+              F646A2C14A814A4AC467F5F52897B552A9ECEA476EDAEDF667A954DA14D72F2C
+              E8476C1728DC5D1067C3DF1866524702B3C331BB414C9D1A2EB5433E9F7F1773
+              4BDAA034519DB34FC4EEBB6F8A63D8D5431DD345E9C34E2B3A140A435D4CB7AC
+              DAB2AC37F12786AA5A3659FFDB668CECA9F506B0CF75C81726C44FAA7361F8E1
+              988959792A957A85CF8FFC2012E572F983EFC8A49774D83FDB7FC965A01A7400
+              6D40DD7F7D0EA1FB9EBE69C893619682BBFB026359D56A55473CC8E5723CABFC
+              F65E42DF2A18029CC0892AA70F7876267D664C1391C82F771870AC77E1041500
+              00000049454E44AE426082}
+            FileName = 'E:\2024\Project\2.4 ['#46356#51088#51064#51089#50629']\icon\refresh01-White.png'
+          end>
+        Name = 'refresh01-White'
+      end>
+    Destination = <
+      item
+        Layers = <
+          item
+            Name = 'refresh01-White'
+            SourceRect.Right = 10.000000000000000000
+            SourceRect.Bottom = 10.000000000000000000
+          end>
+      end>
+    Left = 802
+    Top = 60
+  end
+end

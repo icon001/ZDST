@@ -148,13 +148,13 @@
             <Form>fmDeviceSetting</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="uFrameEtcExplain.pas">
-            <Form>frameEtcExplain</Form>
+        <DCCReference Include="uFrameFirmwareExplain.pas">
+            <Form>frameFirmwareExplain</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="uFrameLanSettingDetails.pas">
-            <Form>FrameLanSettingDetails</Form>
+        <DCCReference Include="uFrameScheduleSettingDetails.pas">
+            <Form>frameScheduleSettingDetails</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -203,8 +203,8 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="deviceSettingFrame\uFrameECUList.pas">
-            <Form>frameECUList</Form>
+        <DCCReference Include="schedultSettingFrame\uFrameDoorList.pas">
+            <Form>frameDoorList</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -243,13 +243,48 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="deviceSettingFrame\uFrameDoorSetting.pas">
-            <Form>frameDoorSetting</Form>
+        <DCCReference Include="deviceSettingFrame\uFrameCardRederTelNumSetting.pas">
+            <Form>frameCardRederTelNumSetting</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="deviceSettingFrame\uFrameExtZonePortSetting.pas">
             <Form>frameExtZonePortSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameDoorSetting.pas">
+            <Form>frameDoorSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameBLESetting.pas">
+            <Form>frameBLESetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameTimeCodeSetting.pas">
+            <Form>frameTimeCodeSetting</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameEtcExplain.pas">
+            <Form>frameEtcExplain</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameLanSettingDetails.pas">
+            <Form>FrameLanSettingDetails</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameFirmwareDetails.pas">
+            <Form>frameFirmwareDetails</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="deviceSettingFrame\uFrameECUList.pas">
+            <Form>frameECUList</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>

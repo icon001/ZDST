@@ -24,8 +24,8 @@ uses
   u_strings in '..\lib\Device\Winsockunits\u_strings.pas',
   u_types_constants in '..\lib\Device\Winsockunits\u_types_constants.pas',
   uDeviceSetting in 'uDeviceSetting.pas' {fmDeviceSetting},
-  uFrameEtcExplain in 'uFrameEtcExplain.pas' {frameEtcExplain: TFrame},
-  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
+  uFrameFirmwareExplain in 'uFrameFirmwareExplain.pas' {frameFirmwareExplain: TFrame},
+  uFrameScheduleSettingDetails in 'uFrameScheduleSettingDetails.pas' {frameScheduleSettingDetails: TFrame},
   uFrameLanSettingExplain in 'uFrameLanSettingExplain.pas' {frameLanSettingExplain: TFrame},
   uFrameDeviceSettingExplain in 'uFrameDeviceSettingExplain.pas' {frameDeviceSettingExplain: TFrame},
   uFrameScheduleSettingExplain in 'uFrameScheduleSettingExplain.pas' {frameScheduleSettingExplain: TFrame},
@@ -35,7 +35,7 @@ uses
   uFrameDeviceSettingDetails in 'uFrameDeviceSettingDetails.pas' {frameDeviceSettingDetails: TFrame},
   uFrameBodyBase in 'uFrameBodyBase.pas' {frameBodyBase: TFrame},
   uFrameMainToLocalDevice in 'deviceSettingFrame\uFrameMainToLocalDevice.pas' {frameMainToLocalDevice: TFrame},
-  uFrameECUList in 'deviceSettingFrame\uFrameECUList.pas' {frameECUList: TFrame},
+  uFrameDoorList in 'schedultSettingFrame\uFrameDoorList.pas' {frameDoorList: TFrame},
   uFrameMCUSettingLeft in 'deviceSettingFrame\uFrameMCUSettingLeft.pas' {frameMCUSettingLeft: TFrame},
   uFrameArmAreaState in 'deviceSettingFrame\uFrameArmAreaState.pas' {frameArmAreaState: TFrame},
   uFMXFormUtil in '..\lib\FMX\uFMXFormUtil.pas' {dmFMXFormUtil: TDataModule},
@@ -43,8 +43,15 @@ uses
   uFrameSystemInfoSetting in 'deviceSettingFrame\uFrameSystemInfoSetting.pas' {frameSystemInfoSetting: TFrame},
   uFramePortSetting in 'deviceSettingFrame\uFramePortSetting.pas' {framePortSetting: TFrame},
   uFrameCardReaderSetting in 'deviceSettingFrame\uFrameCardReaderSetting.pas' {frameCardReaderSetting: TFrame},
+  uFrameCardRederTelNumSetting in 'deviceSettingFrame\uFrameCardRederTelNumSetting.pas' {frameCardRederTelNumSetting: TFrame},
+  uFrameExtZonePortSetting in 'deviceSettingFrame\uFrameExtZonePortSetting.pas' {frameExtZonePortSetting: TFrame},
   uFrameDoorSetting in 'deviceSettingFrame\uFrameDoorSetting.pas' {frameDoorSetting: TFrame},
-  uFrameExtZonePortSetting in 'deviceSettingFrame\uFrameExtZonePortSetting.pas' {frameExtZonePortSetting: TFrame};
+  uFrameBLESetting in 'deviceSettingFrame\uFrameBLESetting.pas' {frameBLESetting: TFrame},
+  uFrameTimeCodeSetting in 'deviceSettingFrame\uFrameTimeCodeSetting.pas' {frameTimeCodeSetting: TFrame},
+  uFrameEtcExplain in 'uFrameEtcExplain.pas' {frameEtcExplain: TFrame},
+  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
+  uFrameFirmwareDetails in 'uFrameFirmwareDetails.pas' {frameFirmwareDetails: TFrame},
+  uFrameECUList in 'deviceSettingFrame\uFrameECUList.pas' {frameECUList: TFrame};
 
 {$R *.res}
 

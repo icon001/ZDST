@@ -29,6 +29,9 @@ type
     StringGrid1: TStringGrid;
     procedure FlowLayout1Resize(Sender: TObject);
     procedure ScrollBox1Resize(Sender: TObject);
+    procedure StringGrid1DrawColumnCell(Sender: TObject; const Canvas: TCanvas;
+      const Column: TColumn; const Bounds: TRectF; const Row: Integer;
+      const Value: TValue; const State: TGridDrawStates);
   private
     { Private declarations }
   public
@@ -65,6 +68,7 @@ begin
     Column := TStringColumn.Create(Self);
     Column.Parent := StringGrid1;
   end;
+  StringGrid1.Cells[3,0] := 'red';
 end;
 
 procedure TframeArmAreaState.ScrollBox1Resize(Sender: TObject);
@@ -72,6 +76,30 @@ begin
   //if ScrollBox1.Width < 910 then rectArmAreaState.Width := ScrollBox1.Width;
 
 
+end;
+
+procedure TframeArmAreaState.StringGrid1DrawColumnCell(Sender: TObject;
+  const Canvas: TCanvas; const Column: TColumn; const Bounds: TRectF;
+  const Row: Integer; const Value: TValue; const State: TGridDrawStates);
+var
+  RowColor : TBrush;
+begin
+
+  RowColor := Tbrush.Create(TBrushKind.Solid,TAlphaColors.Alpha);
+
+{you can check for values and then set the color you want}
+  if Value.ToString = 'red' then
+     RowColor.Color := TAlphaColors.Red
+  else
+    RowColor.Color := TAlphaColors.White;
+
+  StringGrid1.DefaultDrawing := False;
+
+  Canvas.FillRect(Bounds, 0, 0, [], 1, RowColor);
+  Column.DefaultDrawCell(Canvas, Bounds, Row, Value, State);
+
+  //it's better to write this line into destroy
+  RowColor.free;
 end;
 
 end.

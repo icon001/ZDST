@@ -1,0 +1,259 @@
+object frameCardRederTelNumSetting: TframeCardRederTelNumSetting
+  Size.Width = 1200.000000000000000000
+  Size.Height = 1200.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object txtHint: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = txtHeader
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object txtHeader: TText
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = #47924#51064#44397#49324' '#52852#46300#47532#45908' '#51204#54868#48264#54840' '#49444#51221
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 1150.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 1180.000000000000000000
+      Viewport.Height = 1150.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Size.Width = 945.000000000000000000
+        Size.Height = 1150.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        OnResize = FlowLayout1Resize
+        object rectPhonNumSetting: TRectangle
+          Size.Width = 481.000000000000000000
+          Size.Height = 465.000000000000000000
+          Size.PlatformDefault = False
+          object gbCallTime: TGroupBox
+            Align = Top
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Size.Width = 481.000000000000000000
+            Size.Height = 73.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' '#49444#51221
+            TabOrder = 0
+            object Rectangle18: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 461.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text17: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #53685#54868#49884#44036
+                TextSettings.HorzAlign = Trailing
+              end
+              object Rectangle2: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Padding.Left = 5.000000000000000000
+                Padding.Top = 7.000000000000000000
+                Padding.Right = 5.000000000000000000
+                Padding.Bottom = 7.000000000000000000
+                Size.Width = 356.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object spCallTime: TSpinBox
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Left
+                  TabOrder = 0
+                  Cursor = crIBeam
+                  Position.X = 5.000000000000000000
+                  Position.Y = 7.000000000000000000
+                  Size.Width = 100.000000000000000000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                end
+                object Text7: TText
+                  Align = Client
+                  Margins.Left = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Size.Width = 236.000000000000000000
+                  Size.Height = 23.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #52488
+                  TextSettings.HorzAlign = Leading
+                end
+              end
+            end
+          end
+          object gbReaderPhonNumber: TGroupBox
+            Align = Client
+            Padding.Top = 20.000000000000000000
+            Size.Width = 481.000000000000000000
+            Size.Height = 392.000000000000000000
+            Size.PlatformDefault = False
+            Text = #51204#54868#48264#54840#46321#47197
+            TabOrder = 1
+            object GridPanelLayout2: TGridPanelLayout
+              Align = Client
+              Size.Width = 481.000000000000000000
+              Size.Height = 372.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 100.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = Rectangle3
+                  Row = 0
+                end>
+              RowCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              object Rectangle3: TRectangle
+                Align = Client
+                Size.Width = 100.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                object Text1: TText
+                  Align = Client
+                  Size.Width = 100.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48260#53948#48264#54840
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end

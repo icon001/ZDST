@@ -64,6 +64,7 @@ type
     procedure btnMonitoringClick(Sender: TObject);
     procedure btnEtcClick(Sender: TObject);
     procedure btnSplitClick(Sender: TObject);
+    procedure btnFirmwareClick(Sender: TObject);
   private
     frameLanSettingDetails : TFrame;
     frameLanSettingExplain : TFrame;
@@ -93,7 +94,9 @@ uses
   uFrameRemoteControlExplain,
   uFrameMonitoringExplain,
   uFrameEtcExplain,
-  uFrameBodyBase;
+  uFrameBodyBase,
+  uFrameFirmwareExplain
+  ;
 
 {$R *.fmx}
 
@@ -124,6 +127,12 @@ end;
 procedure TfmDeviceSetting.btnExitClick(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure TfmDeviceSetting.btnFirmwareClick(Sender: TObject);
+begin
+  ButtonClick(Sender);
+  ExplainFormVisible(TCornerButton(Sender).Tag);
 end;
 
 procedure TfmDeviceSetting.btnMonitoringClick(Sender: TObject);
@@ -168,6 +177,8 @@ begin
     if(frameExplainArray[i] <> nil) then TFrame(frameExplainArray[i]).Visible := False;
   end;
   if(frameExplainArray[no] <> nil) then TFrame(frameExplainArray[no]).Visible := True;
+  if frameDetailArray[0] <> nil then
+    TframeBodyBase(frameDetailArray[0]).ExtendFormVisible(no);
 end;
 
 procedure TfmDeviceSetting.FormCreate(Sender: TObject);
@@ -183,7 +194,7 @@ begin
   cardAlarm.Visible := False;
   deviceSettingAlarm.Visible := False;
 
-  SetLength(frameExplainArray,7);
+  SetLength(frameExplainArray,8);
 
   frameExplainArray[0] := TFrameLanSettingExplain.Create(self);
   frameExplainArray[0].Parent := rectExplain;
@@ -220,13 +231,19 @@ begin
   frameExplainArray[6].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
   TFrame(frameExplainArray[6]).Visible := False;
 
-  SetLength(frameDetailArray,2);
-  frameDetailArray[1] := TframeBodyBase.Create(self);
-  frameDetailArray[1].Parent := rectBodyBase;
-  frameDetailArray[1].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
-  TFrame(frameDetailArray[1]).Visible := True;
+  frameExplainArray[7] := TframeFirmwareExplain.Create(self);
+  frameExplainArray[7].Parent := rectExplain;
+  frameExplainArray[7].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TFrame(frameExplainArray[7]).Visible := False;
 
-  TframeBodyBase(frameDetailArray[1]).FormInitiailize;
+
+  SetLength(frameDetailArray,2);
+  frameDetailArray[0] := TframeBodyBase.Create(self);
+  frameDetailArray[0].Parent := rectBodyBase;
+  frameDetailArray[0].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TFrame(frameDetailArray[0]).Visible := True;
+
+  TframeBodyBase(frameDetailArray[0]).FormInitiailize;
 end;
 
 end.

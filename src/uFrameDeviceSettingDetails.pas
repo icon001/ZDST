@@ -39,6 +39,9 @@ type
     rectArmAreaState: TRectangle;
     rectCardReader: TRectangle;
     rectDoorSetting: TRectangle;
+    rectBLESetting: TRectangle;
+    rectTimeCodeSetting: TRectangle;
+    rectReaderTelNumberSetting: TRectangle;
   private
     { Private declarations }
     frameMCUSettingLeft : TFrame;
@@ -49,6 +52,10 @@ type
     frameExtZonePortSetting : TFrame;
     frameArmAreaState: TFrame;
     frameCardReaderSetting: TFrame;
+    frameDoorSetting : TFrame;
+    frameBLESetting : TFrame;
+    frameTimeCodeSetting : TFrame;
+    frameCardRederTelNumSetting :TFrame;
   public
     { Public declarations }
     procedure FormInitiailize;
@@ -64,7 +71,11 @@ uses
   uFramePortSetting,
   uframeExtZonePortSetting,
   uFrameArmAreaState,
-  uFrameCardReaderSetting;
+  uFrameCardReaderSetting,
+  uFrameDoorSetting,
+  uFrameBLESetting,
+  uFrameTimeCodeSetting,
+  uFrameCardRederTelNumSetting;
 {$R *.fmx}
 
 { TframeDeviceSettingDetails }
@@ -126,6 +137,34 @@ begin
   frameCardReaderSetting.Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
   TframeCardReaderSetting(frameCardReaderSetting).formCreate;
   frameCardReaderSetting.Visible := True;
+
+  //출입문 설정  폼 로딩
+  frameDoorSetting:= TframeDoorSetting.Create(self);
+  frameDoorSetting.Parent := rectDoorSetting;
+  frameDoorSetting.Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TframeDoorSetting(frameDoorSetting).formCreate;
+  frameDoorSetting.Visible := True;
+
+  //BLE 설정  폼 로딩
+  frameBLESetting:= TframeBLESetting.Create(self);
+  frameBLESetting.Parent := rectBLESetting;
+  frameBLESetting.Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TframeBLESetting(frameBLESetting).formCreate;
+  frameBLESetting.Visible := True;
+
+  //TimeCode 설정  폼 로딩
+  frameTimeCodeSetting:= TframeTimeCodeSetting.Create(self);
+  frameTimeCodeSetting.Parent := rectTimeCodeSetting;
+  frameTimeCodeSetting.Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TframeTimeCodeSetting(frameTimeCodeSetting).formCreate;
+  frameTimeCodeSetting.Visible := True;
+
+  //카드리더 전화번호  설정  폼 로딩
+  frameCardRederTelNumSetting:= TframeCardRederTelNumSetting.Create(self);
+  frameCardRederTelNumSetting.Parent := rectReaderTelNumberSetting;
+  frameCardRederTelNumSetting.Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
+  TframeCardRederTelNumSetting(frameCardRederTelNumSetting).formCreate;
+  frameCardRederTelNumSetting.Visible := True;
 
 end;
 

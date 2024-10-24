@@ -1,0 +1,48 @@
+unit uFMXFormUtil;
+
+interface
+
+uses
+  System.SysUtils, System.Classes,FMX.Objects;
+
+type
+  TdmFMXFormUtil = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    Function TravelRectangleItem(obj:TObject;stName:string):TRectangle;
+  end;
+
+var
+  dmFMXFormUtil: TdmFMXFormUtil;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TdmFMXFormUtil }
+
+function TdmFMXFormUtil.TravelRectangleItem(obj: TObject; stName: string): TRectangle;
+var
+  Loop:integer;
+begin
+  Result:= Nil;
+
+  For Loop:=0 to TComponent(obj).ComponentCount-1 do
+  Begin
+    if TComponent(obj).Components[Loop] is TRectangle then
+    begin
+      if TComponent(obj).Components[Loop].Name = stName then
+      begin
+        Result := TComponent(obj).Components[Loop];
+        Exit;
+      end;
+
+    end;
+  End;
+end;
+
+end.

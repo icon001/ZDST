@@ -1,0 +1,1005 @@
+object frameBLESetting: TframeBLESetting
+  Size.Width = 1200.000000000000000000
+  Size.Height = 1200.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF2C343F
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 10.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object roundHint: TRoundRect
+    Fill.Color = claOrange
+    Position.X = 24.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    object txtHint: TText
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = #52404#53356' '#48149#49828#47484' '#52404#53356#54616#47732' '#54644#45817' ECU'#45716' '#49324#50857#51004#47196' '#49483#54021#46121#45768#45796'.'
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 5.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Size.Width = 1200.000000000000000000
+    Size.Height = 1200.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = txtHeader
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = ScrollBox1
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        SizeStyle = Absolute
+        Value = 40.000000000000000000
+      end
+      item
+        Value = 100.000000000000000000
+      end
+      item
+        SizeStyle = Absolute
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object txtHeader: TText
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'BLE '#49444#51221
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Leading
+    end
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 1180.000000000000000000
+      Size.Height = 1150.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnResize = ScrollBox1Resize
+      Viewport.Width = 1180.000000000000000000
+      Viewport.Height = 1150.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Size.Width = 945.000000000000000000
+        Size.Height = 1150.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        OnResize = FlowLayout1Resize
+        object rectICU: TRectangle
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object gbICU: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'ICU BLE '#49444#51221
+            TabOrder = 0
+            object Rectangle18: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text17: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit1: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text19: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox1: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle19: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text21: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit3: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle2: TRectangle
+          Position.X = 449.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox1: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 1'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle3: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text1: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit2: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text2: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox2: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle4: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text3: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit4: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle5: TRectangle
+          Position.Y = 113.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox2: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 2'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle6: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text4: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit5: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text5: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox3: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle7: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text6: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit6: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle8: TRectangle
+          Position.X = 449.000000000000000000
+          Position.Y = 113.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox3: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 3'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle9: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text7: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit7: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text8: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox4: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle10: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text9: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit8: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle11: TRectangle
+          Position.Y = 226.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox4: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 4'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle12: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text10: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit9: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text11: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox5: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle13: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text12: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit10: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle14: TRectangle
+          Position.X = 449.000000000000000000
+          Position.Y = 226.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox5: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 5'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle15: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text13: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit11: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text14: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox6: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle16: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text15: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit12: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle17: TRectangle
+          Position.Y = 339.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox6: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 6'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle20: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text16: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit13: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text18: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox7: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle21: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text20: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit14: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle22: TRectangle
+          Position.X = 449.000000000000000000
+          Position.Y = 339.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox7: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 7'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle23: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text22: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit15: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text23: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox8: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle24: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text24: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit16: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+        object Rectangle25: TRectangle
+          Position.Y = 452.000000000000000000
+          Size.Width = 449.000000000000000000
+          Size.Height = 113.000000000000000000
+          Size.PlatformDefault = False
+          object GroupBox8: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Size.Width = 449.000000000000000000
+            Size.Height = 113.000000000000000000
+            Size.PlatformDefault = False
+            Text = #52852#46300#47532#45908' 8'#48264' BLE'#49444#51221
+            TabOrder = 0
+            object Rectangle26: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 20.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text25: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = #44256#44061' ID'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit17: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 1
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 83.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Text26: TText
+                Align = Left
+                Position.X = 198.000000000000000000
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE '#44144#47532
+                TextSettings.HorzAlign = Trailing
+              end
+              object SpinBox9: TSpinBox
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Cursor = crIBeam
+                Value = 30.000000000000000000
+                Position.X = 308.000000000000000000
+                Position.Y = 8.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 8.000000000000000000
+                Margins.Bottom = 8.000000000000000000
+                Size.Width = 85.000000000000000000
+                Size.Height = 21.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+            object Rectangle27: TRectangle
+              Align = Top
+              Position.X = 10.000000000000000000
+              Position.Y = 57.000000000000000000
+              Size.Width = 439.000000000000000000
+              Size.Height = 37.000000000000000000
+              Size.PlatformDefault = False
+              object Text27: TText
+                Align = Left
+                Size.Width = 105.000000000000000000
+                Size.Height = 37.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'BLE Version'
+                TextSettings.HorzAlign = Trailing
+              end
+              object Edit18: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Left
+                TabOrder = 5
+                Position.X = 110.000000000000000000
+                Position.Y = 7.000000000000000000
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 7.000000000000000000
+                Margins.Right = 5.000000000000000000
+                Margins.Bottom = 7.000000000000000000
+                Size.Width = 283.000000000000000000
+                Size.Height = 23.000000000000000000
+                Size.PlatformDefault = False
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end

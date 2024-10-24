@@ -1,0 +1,106 @@
+unit uFrameBLESetting;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Edit, FMX.Controls.Presentation, FMX.EditBox,
+  FMX.SpinBox, FMX.ListBox;
+
+type
+  TframeBLESetting = class(TFrame)
+    Rectangle1: TRectangle;
+    roundHint: TRoundRect;
+    txtHint: TText;
+    GridPanelLayout1: TGridPanelLayout;
+    txtHeader: TText;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    rectICU: TRectangle;
+    gbICU: TGroupBox;
+    Rectangle18: TRectangle;
+    Text17: TText;
+    Edit1: TEdit;
+    Text19: TText;
+    Text21: TText;
+    Edit3: TEdit;
+    Rectangle19: TRectangle;
+    SpinBox1: TSpinBox;
+    procedure FlowLayout1Resize(Sender: TObject);
+    procedure ScrollBox1Resize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TframeBLESetting.FlowLayout1Resize(Sender: TObject);
+begin
+  (*
+  FlowLayout1.Height := rectETCSetting.Position.Y + rectETCSetting.Height;
+
+  if FlowLayout1.Height <= 600 then
+  begin
+    ScrollBox1.RealignContent;
+  end;
+  *)
+
+end;
+
+procedure TframeBLESetting.formCreate;
+begin
+  //StyleBook1.LoadFromFile('E:\2024\Project\XE10.2\Style\editYellow.style');
+  //edit.StyleLookup :='Edit1Style1';
+end;
+
+procedure TframeBLESetting.ScrollBox1Resize(Sender: TObject);
+begin
+  //FlowLayout1.Width := 345;
+  rectJavara.Width := 2000;
+
+  FlowLayout1.Width := ScrollBox1.Width - 20;
+  if rectJavara.Visible then rectJavara.Width := FlowLayout1.Width;
+
+  if rectDoor8.Visible then
+  begin
+    FlowLayout1.Height := rectDoor8.Position.Y + rectDoor8.Height;
+  end else if rectDoor7.Visible then
+  begin
+    FlowLayout1.Height := rectDoor7.Position.Y + rectDoor7.Height;
+  end else if rectDoor6.Visible then
+  begin
+    FlowLayout1.Height := rectDoor6.Position.Y + rectDoor6.Height;
+  end else if rectDoor5.Visible then
+  begin
+    FlowLayout1.Height := rectDoor5.Position.Y + rectDoor5.Height;
+  end else if rectDoor4.Visible then
+  begin
+    FlowLayout1.Height := rectDoor4.Position.Y + rectDoor4.Height;
+  end else if rectDoor3.Visible then
+  begin
+    FlowLayout1.Height := rectDoor3.Position.Y + rectDoor3.Height;
+  end else if rectDoor2.Visible then
+  begin
+    FlowLayout1.Height := rectDoor2.Position.Y + rectDoor2.Height;
+  end else if rectDoor1.Visible then
+  begin
+    FlowLayout1.Height := rectDoor1.Position.Y + rectDoor1.Height;
+  end;
+
+
+  if FlowLayout1.Width <= 345 then FlowLayout1.Width := 345;
+  if rectJavara.Visible and (FlowLayout1.Width <= 690) then
+  begin
+    FlowLayout1.Width := 690;
+    rectJavara.Width := 690;
+  end;
+
+end;
+
+end.
