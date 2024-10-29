@@ -55,7 +55,7 @@ uses
   uFrameHoliday in 'schedultSettingFrame\uFrameHoliday.pas' {frameHoliday: TFrame},
   uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
   uFrameScheduleSettingDetails in 'uFrameScheduleSettingDetails.pas' {frameScheduleSettingDetails: TFrame},
-  uFrameCardRegist in 'cardSettingFrame\uFrameCardRegist.pas' {frameCardRegist: TFrame};
+  uFrameCardRegist in 'cardSettingFrame\uFrameCardRegist.pas' {Frame1: TFrame};
 
 {$R *.res}
 

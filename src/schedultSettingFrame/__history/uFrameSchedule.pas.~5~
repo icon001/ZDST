@@ -1,0 +1,46 @@
+unit uFrameSchedule;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation, FMX.ListBox, FMX.Edit;
+
+type
+  TframeSchedule = class(TFrame)
+    Rectangle1: TRectangle;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    Rectangle2: TRectangle;
+    gbWeekDay: TGroupBox;
+    GridPanelLayout1: TGridPanelLayout;
+    CornerButton1: TCornerButton;
+    rectWeekSection1: TRectangle;
+    Text1: TText;
+    edWeekStartHH1: TEdit;
+    rectWeekStartHH1: TRectangle;
+    Text2: TText;
+    edWeekStartMM1: TEdit;
+    rectWeekStartMM1: TRectangle;
+    Text3: TText;
+    Rectangle3: TRectangle;
+    Text4: TText;
+    edWeekEndHH1: TEdit;
+    rectWeekEndHH1: TRectangle;
+    Text5: TText;
+    Edit1: TEdit;
+    rectWeekEndMM1: TRectangle;
+    Text6: TText;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

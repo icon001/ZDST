@@ -1,0 +1,235 @@
+unit uFrameHoliday;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Controls.Presentation, System.Rtti,
+  FMX.Grid.Style, FMX.ScrollBox, FMX.Grid;
+
+type
+  TframeHoliday = class(TFrame)
+    Rectangle1: TRectangle;
+    ScrollBox1: TScrollBox;
+    Rectangle2: TRectangle;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    RadioButton3: TRadioButton;
+    Rectangle3: TRectangle;
+    Rectangle4: TRectangle;
+    Text1: TText;
+    Rectangle5: TRectangle;
+    Rectangle6: TRectangle;
+    Text2: TText;
+    Rectangle7: TRectangle;
+    Rectangle8: TRectangle;
+    Text3: TText;
+    Rectangle9: TRectangle;
+    GridPanelLayout1: TGridPanelLayout;
+    rectHeaderMonth: TRectangle;
+    txtHeaderMonth: TText;
+    Rectangle10: TRectangle;
+    Text4: TText;
+    Rectangle11: TRectangle;
+    Text5: TText;
+    Rectangle12: TRectangle;
+    Text6: TText;
+    Rectangle13: TRectangle;
+    Text7: TText;
+    Rectangle14: TRectangle;
+    Text8: TText;
+    Rectangle15: TRectangle;
+    Text9: TText;
+    Rectangle16: TRectangle;
+    Text10: TText;
+    Rectangle17: TRectangle;
+    Text11: TText;
+    Rectangle18: TRectangle;
+    Text12: TText;
+    Rectangle19: TRectangle;
+    Text13: TText;
+    Rectangle20: TRectangle;
+    Text14: TText;
+    Rectangle21: TRectangle;
+    Text15: TText;
+    Rectangle22: TRectangle;
+    Text16: TText;
+    Rectangle23: TRectangle;
+    Text17: TText;
+    Rectangle24: TRectangle;
+    Text18: TText;
+    Rectangle25: TRectangle;
+    Text19: TText;
+    Rectangle26: TRectangle;
+    Text20: TText;
+    Rectangle27: TRectangle;
+    Text21: TText;
+    Rectangle28: TRectangle;
+    Text22: TText;
+    Rectangle29: TRectangle;
+    Text23: TText;
+    Rectangle30: TRectangle;
+    Text24: TText;
+    Rectangle31: TRectangle;
+    Text25: TText;
+    Rectangle32: TRectangle;
+    Text26: TText;
+    Rectangle33: TRectangle;
+    Text27: TText;
+    Rectangle34: TRectangle;
+    Text28: TText;
+    Rectangle35: TRectangle;
+    Text29: TText;
+    Rectangle36: TRectangle;
+    Text30: TText;
+    Rectangle37: TRectangle;
+    Text31: TText;
+    Rectangle38: TRectangle;
+    Text32: TText;
+    Rectangle39: TRectangle;
+    Text33: TText;
+    Rectangle40: TRectangle;
+    Text34: TText;
+    Rectangle41: TRectangle;
+    Rectangle42: TRectangle;
+    Text35: TText;
+    Rectangle43: TRectangle;
+    Rectangle44: TRectangle;
+    Rectangle45: TRectangle;
+    Rectangle46: TRectangle;
+    Rectangle47: TRectangle;
+    Rectangle48: TRectangle;
+    Rectangle49: TRectangle;
+    Rectangle50: TRectangle;
+    Rectangle51: TRectangle;
+    Rectangle52: TRectangle;
+    Rectangle53: TRectangle;
+    Rectangle54: TRectangle;
+    Rectangle55: TRectangle;
+    Rectangle56: TRectangle;
+    Rectangle57: TRectangle;
+    Rectangle58: TRectangle;
+    Rectangle59: TRectangle;
+    Rectangle60: TRectangle;
+    Rectangle61: TRectangle;
+    Rectangle62: TRectangle;
+    Rectangle63: TRectangle;
+    Rectangle64: TRectangle;
+    Rectangle65: TRectangle;
+    Rectangle66: TRectangle;
+    Rectangle67: TRectangle;
+    Rectangle68: TRectangle;
+    Rectangle69: TRectangle;
+    Rectangle70: TRectangle;
+    Rectangle71: TRectangle;
+    Rectangle72: TRectangle;
+    Rectangle73: TRectangle;
+    Rectangle74: TRectangle;
+    Rectangle75: TRectangle;
+    Text36: TText;
+    Rectangle76: TRectangle;
+    Rectangle77: TRectangle;
+    Rectangle78: TRectangle;
+    Rectangle79: TRectangle;
+    Rectangle80: TRectangle;
+    Rectangle81: TRectangle;
+    Rectangle82: TRectangle;
+    Rectangle83: TRectangle;
+    Rectangle84: TRectangle;
+    Rectangle85: TRectangle;
+    Rectangle86: TRectangle;
+    Rectangle87: TRectangle;
+    Rectangle88: TRectangle;
+    Rectangle89: TRectangle;
+    Rectangle90: TRectangle;
+    Rectangle91: TRectangle;
+    Rectangle92: TRectangle;
+    Rectangle93: TRectangle;
+    Rectangle94: TRectangle;
+    Rectangle95: TRectangle;
+    Rectangle96: TRectangle;
+    Rectangle97: TRectangle;
+    Rectangle98: TRectangle;
+    Rectangle99: TRectangle;
+    Rectangle100: TRectangle;
+    Rectangle101: TRectangle;
+    Rectangle102: TRectangle;
+    Rectangle103: TRectangle;
+    Rectangle104: TRectangle;
+    Rectangle105: TRectangle;
+    Rectangle106: TRectangle;
+    Rectangle107: TRectangle;
+    Rectangle108: TRectangle;
+    Text37: TText;
+    Rectangle109: TRectangle;
+    Rectangle110: TRectangle;
+    Rectangle111: TRectangle;
+    Rectangle112: TRectangle;
+    Rectangle113: TRectangle;
+    Rectangle114: TRectangle;
+    Rectangle115: TRectangle;
+    Rectangle116: TRectangle;
+    Rectangle117: TRectangle;
+    Rectangle118: TRectangle;
+    Rectangle119: TRectangle;
+    Rectangle120: TRectangle;
+    Rectangle121: TRectangle;
+    Rectangle122: TRectangle;
+    Rectangle123: TRectangle;
+    Rectangle124: TRectangle;
+    Rectangle125: TRectangle;
+    Rectangle126: TRectangle;
+    Rectangle127: TRectangle;
+    Rectangle128: TRectangle;
+    Rectangle129: TRectangle;
+    Rectangle130: TRectangle;
+    Rectangle131: TRectangle;
+    Rectangle132: TRectangle;
+    Rectangle133: TRectangle;
+    Rectangle134: TRectangle;
+    Rectangle135: TRectangle;
+    Rectangle136: TRectangle;
+    Rectangle137: TRectangle;
+    Rectangle138: TRectangle;
+    Rectangle139: TRectangle;
+    Rectangle140: TRectangle;
+    StringGrid1: TStringGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure formCreate;
+    procedure FormInitiailize;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+{ TframeHoliday }
+
+
+
+procedure TframeHoliday.formCreate;
+var
+  I: Integer;
+  Column: TColumn;
+begin
+  StringGrid1.RowCount := 10;
+
+  for I := 0 to 32 do
+  begin
+    Column := TStringColumn.Create(Self);
+    Column.Width := 30;
+    Column.Parent := StringGrid1;
+  end;
+  StringGrid1.Cells[3,0] := 'red';
+end;
+
+procedure TframeHoliday.FormInitiailize;
+begin
+  formCreate;
+end;
+
+end.

@@ -224,26 +224,25 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
               TabPosition = PlatformDefault
               Sizes = (
                 800s
-                587s
+                566s
                 800s
-                587s)
+                566s)
               object TabItem1: TTabItem
                 CustomIcon = <
                   item
                   end>
                 IsSelected = False
-                Size.Height = 5.000000000000000000
+                Size.Width = 80.000000000000000000
+                Size.Height = 26.000000000000000000
                 Size.PlatformDefault = False
                 StyleLookup = ''
                 TabOrder = 0
                 Text = #49828#52992#51460#44288#47532
-                ExplicitSize.cx = 80.000000000000000000
-                ExplicitSize.cy = 26.000000000000000000
                 object rectSchedule: TRectangle
                   Align = Client
                   Fill.Kind = None
                   Size.Width = 800.000000000000000000
-                  Size.Height = 587.000000000000000000
+                  Size.Height = 566.000000000000000000
                   Size.PlatformDefault = False
                   Stroke.Kind = None
                 end
@@ -253,18 +252,17 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
                   item
                   end>
                 IsSelected = True
-                Size.Height = 5.000000000000000000
+                Size.Width = 80.000000000000000000
+                Size.Height = 26.000000000000000000
                 Size.PlatformDefault = False
                 StyleLookup = ''
                 TabOrder = 0
                 Text = #53945#51221#51068#44288#47532
-                ExplicitSize.cx = 80.000000000000000000
-                ExplicitSize.cy = 26.000000000000000000
                 object rectHoliday: TRectangle
                   Align = Client
                   Fill.Kind = None
                   Size.Width = 800.000000000000000000
-                  Size.Height = 587.000000000000000000
+                  Size.Height = 566.000000000000000000
                   Size.PlatformDefault = False
                   Stroke.Kind = None
                 end

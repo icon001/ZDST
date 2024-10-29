@@ -1,0 +1,119 @@
+object frameCardRegist: TframeCardRegist
+  Size.Width = 825.000000000000000000
+  Size.Height = 483.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Left
+    Size.Width = 209.000000000000000000
+    Size.Height = 483.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle2: TRectangle
+      Align = Top
+      Size.Width = 209.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object Text1: TText
+        Align = Left
+        Size.Width = 113.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Text = #52852#46300#53468#44536' '#52968#53944#47204#47084
+      end
+      object ComboBox1: TComboBox
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 86.000000000000000000
+        Size.Height = 21.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+    object TMSFMXGrid1: TTMSFMXGrid
+      Align = Client
+      DisableFocusEffect = False
+      TabOrder = 1
+      Size.Width = 209.000000000000000000
+      Size.Height = 442.000000000000000000
+      Size.PlatformDefault = False
+      FixedColumns = 0
+      Options.Editing.CalcFormat = '%g'
+      Options.Grouping.CalcFormat = '%g'
+      Options.Grouping.GroupCountFormat = '(%d)'
+      Options.IO.XMLEncoding = 'ISO-8859-1'
+      Options.Mouse.TouchScrollingSensitivity = 0.100000001490116100
+      Options.Printing.PageNumberFormat = '%g'
+      Version = '2.3.4.1'
+      Fill.Kind = Solid
+      Stroke.Kind = Solid
+      TopRow = 1
+      LeftCol = 0
+      Columns = <
+        item
+          Color = claNull
+          Editor = etEdit
+          Fixed = False
+          FixedFont.StyleExt = {00070000000000000004000000}
+          FixedFontColor = claBlack
+          FontColor = claBlack
+          ID = ''
+          Width = 30.000000000000000000
+        end
+        item
+          Color = claNull
+          ComboItems.Strings = (
+            #52852#46300#48264#54840)
+          Editor = etEdit
+          Fixed = False
+          FixedFont.StyleExt = {00070000000000000004000000}
+          FixedFontColor = claBlack
+          FontColor = claBlack
+          ID = ''
+          Width = 68.000000000000000000
+        end
+        item
+          Color = claNull
+          ComboItems.Strings = (
+            #50948#52824#48264#54840)
+          Editor = etEdit
+          Fixed = False
+          FixedFont.StyleExt = {00070000000000000004000000}
+          FixedFontColor = claBlack
+          FontColor = claBlack
+          ID = ''
+          Width = 68.000000000000000000
+        end
+        item
+          Color = claNull
+          Editor = etEdit
+          Fixed = False
+          FixedFont.StyleExt = {00070000000000000004000000}
+          FixedFontColor = claBlack
+          FontColor = claBlack
+          ID = ''
+          Width = 68.000000000000000000
+        end
+        item
+          Color = claNull
+          Editor = etEdit
+          Fixed = False
+          FixedFont.StyleExt = {00070000000000000004000000}
+          FixedFontColor = claBlack
+          FontColor = claBlack
+          ID = ''
+          Width = 68.000000000000000000
+        end>
+    end
+  end
+  object Splitter1: TSplitter
+    Align = Left
+    Cursor = crHSplit
+    MinSize = 20.000000000000000000
+    Position.X = 209.000000000000000000
+    Size.Width = 10.000000000000000000
+    Size.Height = 483.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

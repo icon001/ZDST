@@ -1,0 +1,1158 @@
+object frameSchedule: TframeSchedule
+  Size.Width = 832.000000000000000000
+  Size.Height = 531.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Kind = None
+    Size.Width = 832.000000000000000000
+    Size.Height = 531.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 832.000000000000000000
+      Size.Height = 531.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 832.000000000000000000
+      Viewport.Height = 531.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Align = Client
+        Size.Width = 832.000000000000000000
+        Size.Height = 531.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        object Rectangle2: TRectangle
+          Size.Width = 625.000000000000000000
+          Size.Height = 217.000000000000000000
+          Size.PlatformDefault = False
+          object gbWeekDay: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Padding.Bottom = 10.000000000000000000
+            Size.Width = 625.000000000000000000
+            Size.Height = 217.000000000000000000
+            Size.PlatformDefault = False
+            Text = #54217#51068' '#49828#52992#51460'('#50900'~'#44552')'
+            TabOrder = 0
+            object GridPanelLayout1: TGridPanelLayout
+              Align = Client
+              Size.Width = 605.000000000000000000
+              Size.Height = 165.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              ControlCollection = <
+                item
+                  Column = 0
+                  Control = rectWeekSection1
+                  Row = 0
+                end
+                item
+                  Column = 1
+                  Control = edWeekStartHH1
+                  Row = 0
+                end
+                item
+                  Column = 2
+                  Control = rectWeekStartHH1
+                  Row = 0
+                end
+                item
+                  Column = 3
+                  Control = edWeekStartMM1
+                  Row = 0
+                end
+                item
+                  Column = 4
+                  Control = rectWeekStartMM1
+                  Row = 0
+                end
+                item
+                  Column = 5
+                  Control = Rectangle3
+                  Row = 0
+                end
+                item
+                  Column = 6
+                  Control = edWeekEndHH1
+                  Row = 0
+                end
+                item
+                  Column = 7
+                  Control = rectWeekEndHH1
+                  Row = 0
+                end
+                item
+                  Column = 8
+                  Control = Edit1
+                  Row = 0
+                end
+                item
+                  Column = 9
+                  Control = rectWeekEndMM1
+                  Row = 0
+                end
+                item
+                  Column = 10
+                  Control = ComboBox1
+                  Row = 0
+                end
+                item
+                  Column = 0
+                  Control = rectWeekSection2
+                  Row = 1
+                end
+                item
+                  Column = 1
+                  Control = edWeekStartHH2
+                  Row = 1
+                end
+                item
+                  Column = 2
+                  Control = Rectangle4
+                  Row = 1
+                end
+                item
+                  Column = 3
+                  Control = Edit2
+                  Row = 1
+                end
+                item
+                  Column = 6
+                  Control = Edit3
+                  Row = 1
+                end
+                item
+                  Column = 7
+                  Control = Rectangle5
+                  Row = 1
+                end
+                item
+                  Column = 4
+                  Control = Rectangle6
+                  Row = 1
+                end
+                item
+                  Column = 5
+                  Control = Rectangle7
+                  Row = 1
+                end
+                item
+                  Column = 8
+                  Control = Edit4
+                  Row = 1
+                end
+                item
+                  Column = 9
+                  Control = Rectangle8
+                  Row = 1
+                end
+                item
+                  Column = 10
+                  Control = ComboBox2
+                  Row = 1
+                end
+                item
+                  Column = 0
+                  Control = Rectangle9
+                  Row = 2
+                end
+                item
+                  Column = 1
+                  Control = Edit5
+                  Row = 2
+                end
+                item
+                  Column = 2
+                  Control = Rectangle10
+                  Row = 2
+                end
+                item
+                  Column = 3
+                  Control = Edit6
+                  Row = 2
+                end
+                item
+                  Column = 4
+                  Control = Rectangle11
+                  Row = 2
+                end
+                item
+                  Column = 5
+                  Control = Rectangle12
+                  Row = 2
+                end
+                item
+                  Column = 6
+                  Control = Edit7
+                  Row = 2
+                end
+                item
+                  Column = 7
+                  Control = Rectangle13
+                  Row = 2
+                end
+                item
+                  Column = 8
+                  Control = Edit8
+                  Row = 2
+                end
+                item
+                  Column = 9
+                  Control = Rectangle14
+                  Row = 2
+                end
+                item
+                  Column = 10
+                  Control = ComboBox3
+                  Row = 2
+                end
+                item
+                  Column = 0
+                  Control = Rectangle15
+                  Row = 3
+                end
+                item
+                  Column = 1
+                  Control = Edit9
+                  Row = 3
+                end
+                item
+                  Column = 2
+                  Control = Rectangle16
+                  Row = 3
+                end
+                item
+                  Column = 3
+                  Control = Edit10
+                  Row = 3
+                end
+                item
+                  Column = 4
+                  Control = Rectangle17
+                  Row = 3
+                end
+                item
+                  Column = 5
+                  Control = Rectangle18
+                  Row = 3
+                end
+                item
+                  Column = 6
+                  Control = Edit11
+                  Row = 3
+                end
+                item
+                  Column = 7
+                  Control = Rectangle19
+                  Row = 3
+                end
+                item
+                  Column = 8
+                  Control = Edit12
+                  Row = 3
+                end
+                item
+                  Column = 9
+                  Control = Rectangle20
+                  Row = 3
+                end
+                item
+                  Column = 10
+                  Control = ComboBox4
+                  Row = 3
+                end
+                item
+                  Column = 0
+                  Control = Rectangle21
+                  Row = 4
+                end
+                item
+                  Column = 1
+                  Control = Edit13
+                  Row = 4
+                end
+                item
+                  Column = 2
+                  Control = Rectangle22
+                  Row = 4
+                end
+                item
+                  Column = 3
+                  Control = Edit14
+                  Row = 4
+                end
+                item
+                  Column = 4
+                  Control = Rectangle23
+                  Row = 4
+                end
+                item
+                  Column = 5
+                  Control = Rectangle24
+                  Row = 4
+                end
+                item
+                  Column = 6
+                  Control = Edit15
+                  Row = 4
+                end
+                item
+                  Column = 7
+                  Control = Rectangle25
+                  Row = 4
+                end
+                item
+                  Column = 8
+                  Control = Edit16
+                  Row = 4
+                end
+                item
+                  Column = 9
+                  Control = Rectangle26
+                  Row = 4
+                end
+                item
+                  Column = 10
+                  Control = ComboBox5
+                  Row = 4
+                end>
+              RowCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              object rectWeekSection1: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text1: TText
+                  Align = Client
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '1'#44396#44036
+                end
+              end
+              object edWeekStartHH1: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 20
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object rectWeekStartHH1: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text2: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object edWeekStartMM1: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 5
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object rectWeekStartMM1: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text3: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object Rectangle3: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text4: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '~'
+                end
+              end
+              object edWeekEndHH1: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 15
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object rectWeekEndHH1: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text5: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit1: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 10
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object rectWeekEndMM1: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text6: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object ComboBox1: TComboBox
+                Align = Client
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 30
+              end
+              object rectWeekSection2: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text7: TText
+                  Align = Client
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '2'#44396#44036
+                end
+              end
+              object edWeekStartHH2: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 19
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle4: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text8: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit2: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 4
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Edit3: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 14
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle5: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text11: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Rectangle6: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text9: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object Rectangle7: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text10: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '~'
+                end
+              end
+              object Edit4: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 9
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle8: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text12: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object ComboBox2: TComboBox
+                Align = Client
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 29
+              end
+              object Rectangle9: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text13: TText
+                  Align = Client
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '3'#44396#44036
+                end
+              end
+              object Edit5: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 18
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle10: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text14: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit6: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 3
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle11: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text15: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object Rectangle12: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text16: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '~'
+                end
+              end
+              object Edit7: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 13
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle13: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text17: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit8: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 8
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle14: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text18: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object ComboBox3: TComboBox
+                Align = Client
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 28
+              end
+              object Rectangle15: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text19: TText
+                  Align = Client
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '4'#44396#44036
+                end
+              end
+              object Edit9: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 17
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle16: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text20: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit10: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 2
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle17: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text21: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object Rectangle18: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text22: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '~'
+                end
+              end
+              object Edit11: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 12
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle19: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text23: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit12: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 7
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle20: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text24: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object ComboBox4: TComboBox
+                Align = Client
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 27
+              end
+              object Rectangle21: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 50.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text25: TText
+                  Align = Client
+                  Size.Width = 50.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '5'#44396#44036
+                end
+              end
+              object Edit13: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 16
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle22: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text26: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit14: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 1
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle23: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text27: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object Rectangle24: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text28: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = '~'
+                end
+              end
+              object Edit15: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 11
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle25: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text29: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #49884
+                end
+              end
+              object Edit16: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                TabOrder = 6
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 46.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object Rectangle26: TRectangle
+                Align = Client
+                Fill.Kind = None
+                Size.Width = 30.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                Stroke.Kind = None
+                object Text30: TText
+                  Align = Client
+                  Size.Width = 30.000000000000000000
+                  Size.Height = 30.000000000000000000
+                  Size.PlatformDefault = False
+                  Text = #48516
+                end
+              end
+              object ComboBox5: TComboBox
+                Align = Client
+                Margins.Left = 2.000000000000000000
+                Margins.Top = 5.000000000000000000
+                Margins.Right = 2.000000000000000000
+                Margins.Bottom = 5.000000000000000000
+                Size.Width = 201.000000000000000000
+                Size.Height = 20.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 26
+              end
+            end
+            object CornerButton1: TCornerButton
+              Align = Bottom
+              Position.X = 10.000000000000000000
+              Position.Y = 185.000000000000000000
+              Sides = [Top, Left, Bottom, Right]
+              Size.Width = 605.000000000000000000
+              Size.Height = 22.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              Text = #52488#44592#54868
+              XRadius = 3.000000000000000000
+              YRadius = 3.000000000000000000
+            end
+          end
+        end
+      end
+    end
+  end
+end

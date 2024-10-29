@@ -76,7 +76,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
           JustifyLastLine = Left
           FlowDirection = LeftToRight
           object rectFirmwareFileSelect: TRectangle
-            Size.Width = 900.000000000000000000
+            Size.Width = 785.000000000000000000
             Size.Height = 57.000000000000000000
             Size.PlatformDefault = False
             object gbFirmwareFileSelect: TGroupBox
@@ -85,7 +85,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
               Padding.Top = 20.000000000000000000
               Padding.Right = 10.000000000000000000
               Padding.Bottom = 10.000000000000000000
-              Size.Width = 900.000000000000000000
+              Size.Width = 785.000000000000000000
               Size.Height = 57.000000000000000000
               Size.PlatformDefault = False
               Text = #54869#51109#44592' '#49440#53469
@@ -126,7 +126,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
               end
               object btnInitialize: TCornerButton
                 Align = Right
-                Position.X = 794.000000000000000000
+                Position.X = 679.000000000000000000
                 Position.Y = 20.000000000000000000
                 Sides = [Top, Left, Bottom, Right]
                 Size.Width = 96.000000000000000000
@@ -162,7 +162,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
           end
           object recScheduleBody: TRectangle
             Position.Y = 57.000000000000000000
-            Size.Width = 900.000000000000000000
+            Size.Width = 785.000000000000000000
             Size.Height = 592.000000000000000000
             Size.PlatformDefault = False
             object rectDoorSelect: TRectangle
@@ -216,34 +216,33 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
             end
             object TabControl1: TTabControl
               Align = Client
-              Size.Width = 800.000000000000000000
+              Size.Width = 685.000000000000000000
               Size.Height = 592.000000000000000000
               Size.PlatformDefault = False
               TabIndex = 1
               TabOrder = 0
               TabPosition = PlatformDefault
               Sizes = (
-                800s
-                587s
-                800s
-                587s)
+                685s
+                566s
+                685s
+                566s)
               object TabItem1: TTabItem
                 CustomIcon = <
                   item
                   end>
                 IsSelected = False
-                Size.Height = 5.000000000000000000
+                Size.Width = 80.000000000000000000
+                Size.Height = 26.000000000000000000
                 Size.PlatformDefault = False
                 StyleLookup = ''
                 TabOrder = 0
                 Text = #49828#52992#51460#44288#47532
-                ExplicitSize.cx = 80.000000000000000000
-                ExplicitSize.cy = 26.000000000000000000
                 object rectSchedule: TRectangle
                   Align = Client
                   Fill.Kind = None
-                  Size.Width = 800.000000000000000000
-                  Size.Height = 587.000000000000000000
+                  Size.Width = 685.000000000000000000
+                  Size.Height = 566.000000000000000000
                   Size.PlatformDefault = False
                   Stroke.Kind = None
                 end
@@ -253,18 +252,17 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
                   item
                   end>
                 IsSelected = True
-                Size.Height = 5.000000000000000000
+                Size.Width = 80.000000000000000000
+                Size.Height = 26.000000000000000000
                 Size.PlatformDefault = False
                 StyleLookup = ''
                 TabOrder = 0
                 Text = #53945#51221#51068#44288#47532
-                ExplicitSize.cx = 80.000000000000000000
-                ExplicitSize.cy = 26.000000000000000000
                 object rectHoliday: TRectangle
                   Align = Client
                   Fill.Kind = None
-                  Size.Width = 800.000000000000000000
-                  Size.Height = 587.000000000000000000
+                  Size.Width = 685.000000000000000000
+                  Size.Height = 566.000000000000000000
                   Size.PlatformDefault = False
                   Stroke.Kind = None
                 end

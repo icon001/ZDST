@@ -16,18 +16,14 @@ type
   private
     FECUID: Integer;
     FDoorNo: Integer;
-    FDeviceType: Integer;
-    FNo: Integer;
     procedure SetECUID(const Value: Integer);
-    procedure SetDeviceType(const Value: Integer);
-    procedure SetNo(const Value: Integer);
+    procedure SetDoorNo(const Value: Integer);
     { Private declarations }
   public
     { Public declarations }
   published
     property ECUID : Integer read FECUID write SetECUID;
-    property No : Integer read FNo write SetNo;
-    property DeviceType : Integer read FDeviceType write SetDeviceType;
+    property DoorNo : Integer read FDoorNo write SetDoorNo;
   end;
 
 implementation
@@ -38,23 +34,18 @@ uses
 
 { TframeECUList }
 
-procedure TframeDoorList.SetDeviceType(const Value: Integer);
+procedure TframeDoorList.SetDoorNo(const Value: Integer);
 begin
-  FDeviceType := Value;
+  FDoorNo := Value;
+  lbl_DoorNum.Text := FillZeroNumber(ECUID,2) + '-' + FillZeroNumber(DoorNo,2);
 end;
 
 procedure TframeDoorList.SetECUID(const Value: Integer);
 begin
   FECUID := Value;
-  lbl_DoorNum.Text := FillZeroNumber(ECUID,2) + '-' + FillZeroNumber(No,2);
+  lbl_DoorNum.Text := FillZeroNumber(ECUID,2) + '-' + FillZeroNumber(DoorNo,2);
 end;
 
 
-
-procedure TframeDoorList.SetNo(const Value: Integer);
-begin
-  FNo := Value;
-  lbl_DoorNum.Text := FillZeroNumber(ECUID,2) + '-' + FillZeroNumber(No,2);
-end;
 
 end.

@@ -1,0 +1,13 @@
+object Frame1: TFrame1
+  Size.Width = 832.000000000000000000
+  Size.Height = 531.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Kind = None
+    Size.Width = 832.000000000000000000
+    Size.Height = 531.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end

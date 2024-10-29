@@ -1,0 +1,44 @@
+object frameCardRegist: TframeCardRegist
+  Size.Width = 825.000000000000000000
+  Size.Height = 483.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Left
+    Size.Width = 209.000000000000000000
+    Size.Height = 483.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle2: TRectangle
+      Align = Top
+      Size.Width = 209.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object Text1: TText
+        Align = Left
+        Size.Width = 113.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        Text = #52852#46300#53468#44536' '#52968#53944#47204#47084
+      end
+      object ComboBox1: TComboBox
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 86.000000000000000000
+        Size.Height = 21.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+    end
+  end
+  object Splitter1: TSplitter
+    Align = Left
+    Cursor = crHSplit
+    MinSize = 20.000000000000000000
+    Position.X = 209.000000000000000000
+    Size.Width = 10.000000000000000000
+    Size.Height = 483.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

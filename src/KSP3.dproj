@@ -153,8 +153,8 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="uFrameScheduleSettingDetails.pas">
-            <Form>frameScheduleSettingDetails</Form>
+        <DCCReference Include="uFrameCardSettingDetails.pas">
+            <Form>frameCardSettingDetails</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -273,11 +273,6 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="uFrameLanSettingDetails.pas">
-            <Form>FrameLanSettingDetails</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
         <DCCReference Include="uFrameFirmwareDetails.pas">
             <Form>frameFirmwareDetails</Form>
             <FormType>fmx</FormType>
@@ -285,6 +280,31 @@
         </DCCReference>
         <DCCReference Include="deviceSettingFrame\uFrameECUList.pas">
             <Form>frameECUList</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="schedultSettingFrame\uFrameSchedule.pas">
+            <Form>frameSchedule</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="schedultSettingFrame\uFrameHoliday.pas">
+            <Form>frameHoliday</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameLanSettingDetails.pas">
+            <Form>FrameLanSettingDetails</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrameScheduleSettingDetails.pas">
+            <Form>frameScheduleSettingDetails</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="cardSettingFrame\uFrameCardRegist.pas">
+            <Form>frameCardRegist</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>

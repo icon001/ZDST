@@ -1,4 +1,4 @@
-object frameScheduleSettingDetails: TframeScheduleSettingDetails
+object frameCardSettingDetails: TframeCardSettingDetails
   Size.Width = 2000.000000000000000000
   Size.Height = 2000.000000000000000000
   Size.PlatformDefault = False
@@ -53,7 +53,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
         Size.Width = 1980.000000000000000000
         Size.Height = 30.000000000000000000
         Size.PlatformDefault = False
-        Text = #49828#52992#51460' '#44288#47532
+        Text = #52852#46300' '#44288#47532
         TextSettings.Font.Size = 20.000000000000000000
         TextSettings.FontColor = claWhite
         TextSettings.HorzAlign = Leading
@@ -94,16 +94,16 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
                 Align = Left
                 Position.X = 10.000000000000000000
                 Position.Y = 20.000000000000000000
-                Size.Width = 95.000000000000000000
+                Size.Width = 111.000000000000000000
                 Size.Height = 27.000000000000000000
                 Size.PlatformDefault = False
-                Text = 'ECU ID'
+                Text = #52852#46300#53468#44536' '#54869#51109#44592
                 TextSettings.HorzAlign = Trailing
               end
               object ComboBox2: TComboBox
                 Align = Left
                 Margins.Left = 5.000000000000000000
-                Position.X = 110.000000000000000000
+                Position.X = 126.000000000000000000
                 Position.Y = 20.000000000000000000
                 Size.Width = 163.000000000000000000
                 Size.Height = 27.000000000000000000
@@ -113,7 +113,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
               object btnSchduleSearch: TCornerButton
                 Align = Left
                 Margins.Left = 5.000000000000000000
-                Position.X = 278.000000000000000000
+                Position.X = 294.000000000000000000
                 Position.Y = 20.000000000000000000
                 Sides = [Top, Left, Bottom, Right]
                 Size.Width = 96.000000000000000000
@@ -139,7 +139,7 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
               end
               object btnScheduleReg: TCornerButton
                 Align = Left
-                Position.X = 374.000000000000000000
+                Position.X = 390.000000000000000000
                 Position.Y = 20.000000000000000000
                 Sides = [Top, Left, Bottom, Right]
                 Size.Width = 96.000000000000000000
@@ -165,85 +165,37 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
             Size.Width = 900.000000000000000000
             Size.Height = 592.000000000000000000
             Size.PlatformDefault = False
-            object rectDoorSelect: TRectangle
-              Align = Left
-              Size.Width = 100.000000000000000000
-              Size.Height = 592.000000000000000000
-              Size.PlatformDefault = False
-              object ScrollBox2: TScrollBox
-                Align = Client
-                Size.Width = 100.000000000000000000
-                Size.Height = 592.000000000000000000
-                Size.PlatformDefault = False
-                TabOrder = 0
-                Viewport.Width = 100.000000000000000000
-                Viewport.Height = 592.000000000000000000
-                object FlowLayout2: TFlowLayout
-                  Align = Top
-                  Size.Width = 100.000000000000000000
-                  Size.Height = 425.000000000000000000
-                  Size.PlatformDefault = False
-                  TabOrder = 0
-                  Justify = Left
-                  JustifyLastLine = Left
-                  FlowDirection = LeftToRight
-                  object Rectangle4: TRectangle
-                    Fill.Kind = None
-                    Margins.Left = 7.000000000000000000
-                    Position.X = 7.000000000000000000
-                    Size.Width = 100.000000000000000000
-                    Size.Height = 33.000000000000000000
-                    Size.PlatformDefault = False
-                    Stroke.Kind = None
-                    object Text2: TText
-                      Align = Client
-                      Size.Width = 80.000000000000000000
-                      Size.Height = 33.000000000000000000
-                      Size.PlatformDefault = False
-                      Text = #52636#51077#47928
-                      TextSettings.HorzAlign = Leading
-                    end
-                    object CheckBox1: TCheckBox
-                      Align = Left
-                      Size.Width = 20.000000000000000000
-                      Size.Height = 33.000000000000000000
-                      Size.PlatformDefault = False
-                      TabOrder = 1
-                    end
-                  end
-                end
-              end
-            end
             object TabControl1: TTabControl
               Align = Client
-              Size.Width = 800.000000000000000000
+              Size.Width = 900.000000000000000000
               Size.Height = 592.000000000000000000
               Size.PlatformDefault = False
-              TabIndex = 1
+              TabIndex = 0
               TabOrder = 0
               TabPosition = PlatformDefault
               Sizes = (
-                800s
-                587s
-                800s
-                587s)
+                900s
+                565s
+                900s
+                565s)
               object TabItem1: TTabItem
                 CustomIcon = <
                   item
                   end>
-                IsSelected = False
-                Size.Height = 5.000000000000000000
+                IsSelected = True
+                Size.Width = 99.000000000000000000
+                Size.Height = 27.000000000000000000
                 Size.PlatformDefault = False
                 StyleLookup = ''
                 TabOrder = 0
-                Text = #49828#52992#51460#44288#47532
+                Text = #52852#46300' '#44428#54620' '#44288#47532
                 ExplicitSize.cx = 80.000000000000000000
                 ExplicitSize.cy = 26.000000000000000000
                 object rectSchedule: TRectangle
                   Align = Client
                   Fill.Kind = None
-                  Size.Width = 800.000000000000000000
-                  Size.Height = 587.000000000000000000
+                  Size.Width = 900.000000000000000000
+                  Size.Height = 565.000000000000000000
                   Size.PlatformDefault = False
                   Stroke.Kind = None
                 end
@@ -252,19 +204,20 @@ object frameScheduleSettingDetails: TframeScheduleSettingDetails
                 CustomIcon = <
                   item
                   end>
-                IsSelected = True
-                Size.Height = 5.000000000000000000
+                IsSelected = False
+                Size.Width = 96.000000000000000000
+                Size.Height = 27.000000000000000000
                 Size.PlatformDefault = False
                 StyleLookup = ''
                 TabOrder = 0
-                Text = #53945#51221#51068#44288#47532
+                Text = #52852#46300#44428#54620' '#51312#54924
                 ExplicitSize.cx = 80.000000000000000000
                 ExplicitSize.cy = 26.000000000000000000
                 object rectHoliday: TRectangle
                   Align = Client
                   Fill.Kind = None
-                  Size.Width = 800.000000000000000000
-                  Size.Height = 587.000000000000000000
+                  Size.Width = 900.000000000000000000
+                  Size.Height = 565.000000000000000000
                   Size.PlatformDefault = False
                   Stroke.Kind = None
                 end

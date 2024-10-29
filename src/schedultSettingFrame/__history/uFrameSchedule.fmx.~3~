@@ -1,0 +1,138 @@
+object Frame1: TFrame1
+  Size.Width = 832.000000000000000000
+  Size.Height = 531.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Kind = None
+    Size.Width = 832.000000000000000000
+    Size.Height = 531.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ScrollBox1: TScrollBox
+      Align = Client
+      Size.Width = 832.000000000000000000
+      Size.Height = 531.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 832.000000000000000000
+      Viewport.Height = 531.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Align = Client
+        Size.Width = 832.000000000000000000
+        Size.Height = 531.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        object Rectangle2: TRectangle
+          Size.Width = 625.000000000000000000
+          Size.Height = 217.000000000000000000
+          Size.PlatformDefault = False
+          object gbWeekDay: TGroupBox
+            Align = Client
+            Padding.Left = 10.000000000000000000
+            Padding.Top = 20.000000000000000000
+            Padding.Right = 10.000000000000000000
+            Padding.Bottom = 10.000000000000000000
+            Size.Width = 625.000000000000000000
+            Size.Height = 217.000000000000000000
+            Size.PlatformDefault = False
+            Text = #54217#51068' '#49828#52992#51460'('#50900'~'#44552')'
+            TabOrder = 0
+            object GridPanelLayout1: TGridPanelLayout
+              Align = Client
+              Size.Width = 605.000000000000000000
+              Size.Height = 165.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              ColumnCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 50.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+              ControlCollection = <>
+              RowCollection = <
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  SizeStyle = Absolute
+                  Value = 30.000000000000000000
+                end
+                item
+                  Value = 100.000000000000000000
+                end>
+            end
+            object CornerButton1: TCornerButton
+              Align = Bottom
+              Position.X = 10.000000000000000000
+              Position.Y = 185.000000000000000000
+              Sides = [Top, Left, Bottom, Right]
+              Size.Width = 605.000000000000000000
+              Size.Height = 22.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              Text = #52488#44592#54868
+              XRadius = 3.000000000000000000
+              YRadius = 3.000000000000000000
+            end
+          end
+        end
+      end
+    end
+  end
+end

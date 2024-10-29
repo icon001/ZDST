@@ -25,7 +25,7 @@ uses
   u_types_constants in '..\lib\Device\Winsockunits\u_types_constants.pas',
   uDeviceSetting in 'uDeviceSetting.pas' {fmDeviceSetting},
   uFrameFirmwareExplain in 'uFrameFirmwareExplain.pas' {frameFirmwareExplain: TFrame},
-  uFrameCardSettingDetails in 'uFrameCardSettingDetails.pas' {frameCardSettingDetails: TFrame},
+  uFrameScheduleSettingDetails in 'uFrameScheduleSettingDetails.pas' {frameScheduleSettingDetails: TFrame},
   uFrameLanSettingExplain in 'uFrameLanSettingExplain.pas' {frameLanSettingExplain: TFrame},
   uFrameDeviceSettingExplain in 'uFrameDeviceSettingExplain.pas' {frameDeviceSettingExplain: TFrame},
   uFrameScheduleSettingExplain in 'uFrameScheduleSettingExplain.pas' {frameScheduleSettingExplain: TFrame},
@@ -49,13 +49,10 @@ uses
   uFrameBLESetting in 'deviceSettingFrame\uFrameBLESetting.pas' {frameBLESetting: TFrame},
   uFrameTimeCodeSetting in 'deviceSettingFrame\uFrameTimeCodeSetting.pas' {frameTimeCodeSetting: TFrame},
   uFrameEtcExplain in 'uFrameEtcExplain.pas' {frameEtcExplain: TFrame},
+  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
   uFrameFirmwareDetails in 'uFrameFirmwareDetails.pas' {frameFirmwareDetails: TFrame},
   uFrameECUList in 'deviceSettingFrame\uFrameECUList.pas' {frameECUList: TFrame},
-  uFrameSchedule in 'schedultSettingFrame\uFrameSchedule.pas' {frameSchedule: TFrame},
-  uFrameHoliday in 'schedultSettingFrame\uFrameHoliday.pas' {frameHoliday: TFrame},
-  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
-  uFrameScheduleSettingDetails in 'uFrameScheduleSettingDetails.pas' {frameScheduleSettingDetails: TFrame},
-  uFrameCardRegist in 'cardSettingFrame\uFrameCardRegist.pas' {frameCardRegist: TFrame};
+  uFrameSchedule in 'schedultSettingFrame\uFrameSchedule.pas' {frameSchedule: TFrame};
 
 {$R *.res}
 

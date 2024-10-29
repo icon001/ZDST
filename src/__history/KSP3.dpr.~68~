@@ -53,9 +53,7 @@ uses
   uFrameECUList in 'deviceSettingFrame\uFrameECUList.pas' {frameECUList: TFrame},
   uFrameSchedule in 'schedultSettingFrame\uFrameSchedule.pas' {frameSchedule: TFrame},
   uFrameHoliday in 'schedultSettingFrame\uFrameHoliday.pas' {frameHoliday: TFrame},
-  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame},
-  uFrameScheduleSettingDetails in 'uFrameScheduleSettingDetails.pas' {frameScheduleSettingDetails: TFrame},
-  uFrameCardRegist in 'cardSettingFrame\uFrameCardRegist.pas' {frameCardRegist: TFrame};
+  uFrameLanSettingDetails in 'uFrameLanSettingDetails.pas' {FrameLanSettingDetails: TFrame};
 
 {$R *.res}
 

@@ -1,0 +1,46 @@
+unit uFrameCardRegist;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.ListBox, FMX.Objects, FMX.TMSBaseControl, FMX.TMSGridCell,
+  FMX.TMSGridOptions, FMX.TMSGridData, FMX.TMSCustomGrid, FMX.TMSGrid,
+  FMX.Layouts;
+
+type
+  TframeCardRegist = class(TFrame)
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
+    Text1: TText;
+    ComboBox1: TComboBox;
+    Splitter1: TSplitter;
+    TMSFMXGrid1: TTMSFMXGrid;
+    Rectangle3: TRectangle;
+    Rectangle4: TRectangle;
+    Text2: TText;
+    ComboBox2: TComboBox;
+    rectAuthDeviceSelect: TRectangle;
+    rectAuthDeviceSearch: TRectangle;
+    Rectangle7: TRectangle;
+    GridPanelLayout1: TGridPanelLayout;
+    rectDoorSelect: TRectangle;
+    txtDoorSelect: TText;
+    rectArmAreaSelect: TRectangle;
+    txtArmAreaSelect: TText;
+    ScrollBox1: TScrollBox;
+    ScrollBox2: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    FlowLayout2: TFlowLayout;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

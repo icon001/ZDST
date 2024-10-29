@@ -32,8 +32,7 @@ uses
   uFrameDeviceSettingDetails,
   uFrameLanSettingDetails,
   uFrameFirmwareDetails,
-  uFrameScheduleSettingDetails,
-  uFrameCardSettingDetails;
+  uFrameScheduleSettingDetails;
 
 {$R *.fmx}
 
@@ -68,19 +67,11 @@ begin
   TFrame(frameDetailBodyArray[1]).Visible := False;
   TframeDeviceSettingDetails(frameDetailBodyArray[1]).FormInitiailize;
 
-  //스케줄
   frameDetailBodyArray[2]:= TFrameScheduleSettingDetails.Create(self);
   frameDetailBodyArray[2].Parent := rectBody;
   frameDetailBodyArray[2].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
   TFrame(frameDetailBodyArray[2]).Visible := False;
   TFrameScheduleSettingDetails(frameDetailBodyArray[2]).FormInitiailize;
-
-  //카드설정
-  frameDetailBodyArray[3]:= TFrameCardSettingDetails.Create(self);
-  frameDetailBodyArray[3].Parent := rectBody;
-  frameDetailBodyArray[3].Align := TAlignLayout.Client; // 프레임을 Rectangle에 맞게 조정
-  TFrame(frameDetailBodyArray[3]).Visible := False;
-  TFrameCardSettingDetails(frameDetailBodyArray[3]).FormInitiailize;
 
   //펌웨어 다운로드
   frameDetailBodyArray[7]:= TframeFirmwareDetails.Create(self);

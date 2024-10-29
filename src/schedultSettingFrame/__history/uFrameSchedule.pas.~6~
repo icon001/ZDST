@@ -1,0 +1,114 @@
+unit uFrameSchedule;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation, FMX.ListBox, FMX.Edit;
+
+type
+  TframeSchedule = class(TFrame)
+    Rectangle1: TRectangle;
+    ScrollBox1: TScrollBox;
+    FlowLayout1: TFlowLayout;
+    Rectangle2: TRectangle;
+    gbWeekDay: TGroupBox;
+    GridPanelLayout1: TGridPanelLayout;
+    CornerButton1: TCornerButton;
+    rectWeekSection1: TRectangle;
+    Text1: TText;
+    edWeekStartHH1: TEdit;
+    rectWeekStartHH1: TRectangle;
+    Text2: TText;
+    edWeekStartMM1: TEdit;
+    rectWeekStartMM1: TRectangle;
+    Text3: TText;
+    Rectangle3: TRectangle;
+    Text4: TText;
+    edWeekEndHH1: TEdit;
+    rectWeekEndHH1: TRectangle;
+    Text5: TText;
+    Edit1: TEdit;
+    rectWeekEndMM1: TRectangle;
+    Text6: TText;
+    ComboBox1: TComboBox;
+    rectWeekSection2: TRectangle;
+    Text7: TText;
+    edWeekStartHH2: TEdit;
+    Rectangle4: TRectangle;
+    Text8: TText;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Rectangle5: TRectangle;
+    Text11: TText;
+    Rectangle6: TRectangle;
+    Text9: TText;
+    Rectangle7: TRectangle;
+    Text10: TText;
+    Edit4: TEdit;
+    Rectangle8: TRectangle;
+    Text12: TText;
+    ComboBox2: TComboBox;
+    Rectangle9: TRectangle;
+    Text13: TText;
+    Edit5: TEdit;
+    Rectangle10: TRectangle;
+    Text14: TText;
+    Edit6: TEdit;
+    Rectangle11: TRectangle;
+    Text15: TText;
+    Rectangle12: TRectangle;
+    Text16: TText;
+    Edit7: TEdit;
+    Rectangle13: TRectangle;
+    Text17: TText;
+    Edit8: TEdit;
+    Rectangle14: TRectangle;
+    Text18: TText;
+    ComboBox3: TComboBox;
+    Rectangle15: TRectangle;
+    Text19: TText;
+    Edit9: TEdit;
+    Rectangle16: TRectangle;
+    Text20: TText;
+    Edit10: TEdit;
+    Rectangle17: TRectangle;
+    Text21: TText;
+    Rectangle18: TRectangle;
+    Text22: TText;
+    Edit11: TEdit;
+    Rectangle19: TRectangle;
+    Text23: TText;
+    Edit12: TEdit;
+    Rectangle20: TRectangle;
+    Text24: TText;
+    ComboBox4: TComboBox;
+    Rectangle21: TRectangle;
+    Text25: TText;
+    Edit13: TEdit;
+    Rectangle22: TRectangle;
+    Text26: TText;
+    Edit14: TEdit;
+    Rectangle23: TRectangle;
+    Text27: TText;
+    Rectangle24: TRectangle;
+    Text28: TText;
+    Edit15: TEdit;
+    Rectangle25: TRectangle;
+    Text29: TText;
+    Edit16: TEdit;
+    Rectangle26: TRectangle;
+    Text30: TText;
+    ComboBox5: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.
